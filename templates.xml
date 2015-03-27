@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<elements>
+	<element_template template_name="elem_2" static="">
+		<chain_shape>
+			<point x="286" y="0" />
+			<point x="0" y="287" />
+			<point x="91" y="375" />
+			<point x="124" y="341" />
+			<point x="125" y="565" />
+			<point x="250" y="566" />
+			<point x="251" y="214" />
+			<point x="376" y="90" />
+		</chain_shape>
+		<textures>
+			<texture texture_name="GameResources/Textures/shape2.png" />
+		</textures>
+	</element_template>
+	<element_template template_name="elem_3" static="">
+		<chain_shape>
+			<point x="125" y="0" />
+			<point x="125" y="231" />
+			<point x="1" y="232" />
+			<point x="0" y="636" />
+			<point x="125" y="637" />
+			<point x="126" y="406" />
+			<point x="250" y="405" />
+			<point x="251" y="1" />
+		</chain_shape>
+		<textures>
+			<texture texture_name="GameResources/Textures/shape3.png" />
+		</textures>
+	</element_template>
+	<element_template template_name="elem_4" static="">
+		<chain_shape>
+			<point x="0" y="0" />
+			<point x="0" y="699" />
+			<point x="126" y="700" />
+			<point x="127" y="300" />
+			<point x="404" y="299" />
+			<point x="405" y="1" />
+		</chain_shape>
+		<textures>
+			<texture texture_name="GameResources/Textures/shape4.png" />
+		</textures>
+	</element_template>
+	<element_template template_name="elem_6" static="">
+		<chain_shape>
+			<point x="0" y="0" />
+			<point x="0" y="404" />
+			<point x="126" y="405" />
+			<point x="127" y="1" />
+		</chain_shape>
+		<textures>
+			<texture texture_name="GameResources/Textures/shape6.png" />
+		</textures>
+	</element_template>
+	<element_template template_name="elem_7" static="">
+		<chain_shape>
+			<point x="139" y="0" />
+			<point x="139" y="138" />
+			<point x="1" y="139" />
+			<point x="0" y="265" />
+			<point x="138" y="266" />
+			<point x="139" y="404" />
+			<point x="265" y="405" />
+			<point x="266" y="267" />
+			<point x="404" y="266" />
+			<point x="405" y="140" />
+			<point x="267" y="139" />
+			<point x="266" y="1" />
+		</chain_shape>
+		<textures>
+			<texture texture_name="GameResources/Textures/shape7.png" />
+		</textures>
+	</element_template>
+	<element_template template_name="elem_8" static="">
+		<chain_shape>
+			<point x="278" y="0" />
+			<point x="278" y="400" />
+			<point x="1" y="401" />
+			<point x="0" y="699" />
+			<point x="404" y="700" />
+			<point x="405" y="1" />
+		</chain_shape>
+		<textures>
+			<texture texture_name="GameResources/Textures/shape8.png" />
+		</textures>
+	</element_template>
+	<element_template template_name="elem_9" static="">
+		<chain_shape>
+			<point x="0" y="0" />
+			<point x="0" y="534" />
+			<point x="535" y="535" />
+			<point x="536" y="409" />
+			<point x="128" y="408" />
+			<point x="127" y="1" />
+		</chain_shape>
+		<textures>
+			<texture texture_name="GameResources/Textures/shape9.png" />
+		</textures>
+	</element_template>
+	<element_template template_name="elem_10" static="">
+		<chain_shape>
+			<point x="540" y="0" />
+			<point x="540" y="277" />
+			<point x="1" y="278" />
+			<point x="0" y="812" />
+			<point x="126" y="813" />
+			<point x="127" y="406" />
+			<point x="665" y="405" />
+			<point x="666" y="128" />
+			<point x="904" y="129" />
+			<point x="1037" y="206" />
+			<point x="1037" y="401" />
+			<point x="897" y="402" />
+			<point x="896" y="528" />
+			<point x="1162" y="529" />
+			<point x="1164" y="134" />
+			<point x="941" y="1" />
+		</chain_shape>
+		<textures>
+			<texture texture_name="GameResources/Textures/shape10.png" />
+		</textures>
+	</element_template>
+	<element_template template_name="elem_11" static="">
+		<chain_shape>
+			<point x="0" y="0" />
+			<point x="0" y="126" />
+			<point x="1250" y="127" />
+			<point x="1251" y="663" />
+			<point x="1377" y="664" />
+			<point x="1378" y="128" />
+			<point x="1884" y="127" />
+			<point x="1885" y="665" />
+			<point x="2011" y="666" />
+			<point x="2012" y="128" />
+			<point x="2617" y="127" />
+			<point x="2618" y="1" />
+		</chain_shape>
+		<textures>
+			<texture texture_name="GameResources/Textures/shape11.png" />
+		</textures>
+	</element_template>
+	<element_template template_name="elem_12" static="">
+		<chain_shape>
+			<point x="0" y="1" />
+			<point x="0" y="535" />
+			<point x="126" y="536" />
+			<point x="127" y="2" />
+		</chain_shape>
+		<textures>
+			<texture texture_name="GameResources/Textures/shape12.png" />
+		</textures>
+	</element_template>
+	<element_template template_name="elem_13" static="">
+		<chain_shape>
+			<point x="0" y="0" />
+			<point x="0" y="327" />
+			<point x="192" y="329" />
+			<point x="549" y="535" />
+			<point x="550" y="1224" />
+			<point x="676" y="1225" />
+			<point x="677" y="1" />
+		</chain_shape>
+		<textures>
+			<texture texture_name="GameResources/Textures/shape13.png" />
+		</textures>
+	</element_template>
+	<element_template template_name="red_shape" static="">
+		<chain_shape>
+			<point x="60" y="84" />
+			<point x="129" y="150" />
+			<point x="214" y="151" />
+			<point x="214" y="72" />
+			<point x="303" y="72" />
+			<point x="326" y="150" />
+			<point x="409" y="151" />
+			<point x="454" y="73" />
+			<point x="518" y="74" />
+			<point x="593" y="149" />
+			<point x="594" y="288" />
+			<point x="571" y="368" />
+			<point x="446" y="370" />
+			<point x="22" y="255" />
+		</chain_shape>
+		<textures>
+			<texture texture_name="GameResources/Textures/red_shape.png" />
+		</textures>
+	</element_template>
+</elements>

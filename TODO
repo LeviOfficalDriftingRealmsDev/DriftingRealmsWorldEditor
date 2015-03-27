@@ -1,0 +1,25 @@
+FIXME: Stop being stupid. why assign the angles for the object so many times? Instead make angles be found in the object builder
+ADDME: Triggers
+FIXME: Element builder in general, and refreshing(warnings) etc...
+FIXME: One million memory leaks(go through each file, find each pointer and make sure it gets deleted)
+FIXME: Zoom assumes there is no toolbar atop and thus acts weird when zoomed out extremely
+ADDME: BaseSpawns
+ADDME: Unitplacment
+ADDME: Points
+ADDME: Tunnels
+ADDME: Save Load(as apposed to Import Export(if neccesary))
+ADDME: Rotation
+ADDME: Snapping
+ADDME: Different grid sizes
+ADDME: Scaling
+ADDME: Prefabs
+ADDME: Ambient noise
+ADDME: Background(in layers that move preferably)
+ADDME: Map Borders(calculate from farthest right unit and bottom)
+ADDME: Background Object(no collision and doesn't add towards map width)
+ADDME: Manual map width and height
+ADDME: Group scaling/rotation
+ADDME: Launch in Game button
+ADDME: hotkey system
+ADDME: Script placement(or something mathy - like for circles)
+ADDME: Upgrade Map(add documentation of saving for each new version once this is implemented)

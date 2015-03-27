@@ -1,0 +1,3692 @@
+# depslib dependency file v1.0
+1407893921 source:/storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/GameDisplayWindow.cpp
+	"./Include/GameDisplayWindow.hpp"
+
+1407884601 /storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/Include/GameDisplayWindow.hpp
+	"Precomp.hpp"
+	"World.hpp"
+	"ToolBoxWindow.hpp"
+	"ElementBrowserWindow.hpp"
+	"CustomElementCreatorWIndow.hpp"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/core.h
+	<windows.h>
+	<string>
+	"Core/System/cl_platform.h"
+	"Core/System/comptr.h"
+	"Core/Text/file_logger.h"
+	"Core/Text/console.h"
+	"Core/Text/console_logger.h"
+	"Core/Text/logger.h"
+	"Core/Text/string_format.h"
+	"Core/Text/string_help.h"
+	"Core/Text/utf8_reader.h"
+	"Core/System/databuffer.h"
+	"Core/System/block_allocator.h"
+	"Core/System/console_window.h"
+	"Core/System/datetime.h"
+	"Core/System/disposable_object.h"
+	"Core/System/event.h"
+	"Core/System/event_provider.h"
+	"Core/System/exception.h"
+	"Core/System/mutex.h"
+	"Core/System/runnable.h"
+	"Core/System/service.h"
+	"Core/System/setup_core.h"
+	"Core/System/thread.h"
+	"Core/System/thread_local_storage.h"
+	"Core/System/system.h"
+	"Core/System/keep_alive.h"
+	"Core/System/timer.h"
+	"Core/System/registry_key.h"
+	"Core/System/interlocked_variable.h"
+	"Core/System/userdata.h"
+	"Core/System/game_time.h"
+	"Core/System/work_queue.h"
+	"Core/ErrorReporting/crash_reporter.h"
+	"Core/ErrorReporting/detect_hang.h"
+	"Core/ErrorReporting/exception_dialog.h"
+	"Core/Signals/callback_0.h"
+	"Core/Signals/callback_1.h"
+	"Core/Signals/callback_2.h"
+	"Core/Signals/callback_3.h"
+	"Core/Signals/callback_4.h"
+	"Core/Signals/callback_5.h"
+	"Core/Signals/callback_6.h"
+	"Core/Signals/callback_v0.h"
+	"Core/Signals/callback_v1.h"
+	"Core/Signals/callback_v2.h"
+	"Core/Signals/callback_v3.h"
+	"Core/Signals/callback_v4.h"
+	"Core/Signals/callback_v5.h"
+	"Core/Signals/callback_v6.h"
+	"Core/Signals/signal_v0.h"
+	"Core/Signals/signal_v1.h"
+	"Core/Signals/signal_v2.h"
+	"Core/Signals/signal_v3.h"
+	"Core/Signals/signal_v4.h"
+	"Core/Signals/signal_v5.h"
+	"Core/Signals/signal_v6.h"
+	"Core/Signals/slot.h"
+	"Core/Signals/slot_container.h"
+	"Core/Resources/resource.h"
+	"Core/Resources/resource_container.h"
+	"Core/Resources/resource_object.h"
+	"Core/Resources/resource_manager.h"
+	"Core/Resources/xml_resource_node.h"
+	"Core/Resources/xml_resource_document.h"
+	"Core/Resources/xml_resource_manager.h"
+	"Core/JSON/json_value.h"
+	"Core/XML/dom_processing_instruction.h"
+	"Core/XML/dom_entity_reference.h"
+	"Core/XML/dom_notation.h"
+	"Core/XML/dom_exception.h"
+	"Core/XML/dom_cdata_section.h"
+	"Core/XML/dom_document_fragment.h"
+	"Core/XML/dom_comment.h"
+	"Core/XML/dom_attr.h"
+	"Core/XML/dom_entity.h"
+	"Core/XML/dom_document_type.h"
+	"Core/XML/dom_document.h"
+	"Core/XML/dom_implementation.h"
+	"Core/XML/dom_node_list.h"
+	"Core/XML/dom_text.h"
+	"Core/XML/dom_node.h"
+	"Core/XML/dom_character_data.h"
+	"Core/XML/dom_named_node_map.h"
+	"Core/XML/dom_element.h"
+	"Core/XML/dom_string.h"
+	"Core/XML/xml_tokenizer.h"
+	"Core/XML/xml_writer.h"
+	"Core/XML/xml_token.h"
+	"Core/XML/xpath_evaluator.h"
+	"Core/XML/xpath_object.h"
+	"Core/IOData/file.h"
+	"Core/IOData/file_help.h"
+	"Core/IOData/path_help.h"
+	"Core/IOData/iodevice.h"
+	"Core/IOData/iodevice_provider.h"
+	"Core/IOData/pipe_connection.h"
+	"Core/IOData/pipe_listen.h"
+	"Core/IOData/directory.h"
+	"Core/IOData/cl_endian.h"
+	"Core/IOData/directory_scanner.h"
+	"Core/IOData/file_system.h"
+	"Core/IOData/file_system_provider.h"
+	"Core/IOData/directory_listing.h"
+	"Core/IOData/iodevice_memory.h"
+	"Core/IOData/html_url.h"
+	"Core/Zip/zip_archive.h"
+	"Core/Zip/zip_writer.h"
+	"Core/Zip/zip_reader.h"
+	"Core/Zip/zip_file_entry.h"
+	"Core/Zip/zlib_compression.h"
+	"Core/Math/angle.h"
+	"Core/Math/base64_encoder.h"
+	"Core/Math/base64_decoder.h"
+	"Core/Math/bezier_curve.h"
+	"Core/Math/circle.h"
+	"Core/Math/vec2.h"
+	"Core/Math/vec3.h"
+	"Core/Math/vec4.h"
+	"Core/Math/delauney_triangulator.h"
+	"Core/Math/ear_clip_triangulator.h"
+	"Core/Math/ear_clip_result.h"
+	"Core/Math/line_math.h"
+	"Core/Math/cl_math.h"
+	"Core/Math/quaternion.h"
+	"Core/Math/mat2.h"
+	"Core/Math/mat3.h"
+	"Core/Math/mat4.h"
+	"Core/Math/origin.h"
+	"Core/Math/outline_triangulator.h"
+	"Core/Math/point.h"
+	"Core/Math/pointset_math.h"
+	"Core/Math/quad.h"
+	"Core/Math/rect.h"
+	"Core/Math/rect_packer.h"
+	"Core/Math/half_float.h"
+	"Core/Math/half_float_vector.h"
+	"Core/Math/big_int.h"
+	"Core/Math/frustum_planes.h"
+	"Core/Math/intersection_test.h"
+	"Core/Math/aabb.h"
+	"Core/Math/obb.h"
+	"Core/Crypto/random.h"
+	"Core/Crypto/secret.h"
+	"Core/Crypto/sha1.h"
+	"Core/Crypto/md5.h"
+	"Core/Crypto/sha224.h"
+	"Core/Crypto/sha256.h"
+	"Core/Crypto/sha384.h"
+	"Core/Crypto/sha512.h"
+	"Core/Crypto/sha512_224.h"
+	"Core/Crypto/sha512_256.h"
+	"Core/Crypto/aes128_encrypt.h"
+	"Core/Crypto/aes128_decrypt.h"
+	"Core/Crypto/aes192_encrypt.h"
+	"Core/Crypto/aes192_decrypt.h"
+	"Core/Crypto/aes256_encrypt.h"
+	"Core/Crypto/aes256_decrypt.h"
+	"Core/Crypto/rsa.h"
+	"Core/Crypto/tls_client.h"
+	"Core/Math/size.h"
+	"Core/Math/triangle_math.h"
+	"Core/Math/line.h"
+	"Core/Math/line_ray.h"
+	"Core/Math/line_segment.h"
+	"Core/Crypto/hash_functions.h"
+	"Core/core_iostream.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/System/cl_platform.h
+	<cstring>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/System/comptr.h
+	"../api_core.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/api_core.h
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Text/file_logger.h
+	"../api_core.h"
+	"logger.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Text/logger.h
+	"../api_core.h"
+	"string_format.h"
+	"string_help.h"
+	"../System/mutex.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Text/string_format.h
+	"../api_core.h"
+	<vector>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Text/string_help.h
+	"../api_core.h"
+	<vector>
+	<vcclr.h>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/System/mutex.h
+	"../api_core.h"
+	<windows.h>
+	<pthread.h>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Text/console.h
+	"../api_core.h"
+	"string_format.h"
+	"string_help.h"
+	<conio.h>
+	<unistd.h>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Text/console_logger.h
+	"../api_core.h"
+	"logger.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Text/utf8_reader.h
+	"../api_core.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/System/databuffer.h
+	"../api_core.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/System/block_allocator.h
+	"../api_core.h"
+	"system.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/System/system.h
+	"../api_core.h"
+	"../System/cl_platform.h"
+	<vector>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/System/console_window.h
+	"../api_core.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/System/datetime.h
+	"../api_core.h"
+	"../System/cl_platform.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/System/disposable_object.h
+	"../api_core.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/System/event.h
+	"../api_core.h"
+	"mutex.h"
+	<vector>
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/System/event_provider.h
+	"../api_core.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/System/exception.h
+	"../api_core.h"
+	<vector>
+	<stdexcept>
+	<string>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/System/runnable.h
+	"../api_core.h"
+	<typeinfo>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/System/service.h
+	"../api_core.h"
+	<memory>
+	"../Signals/signal_v1.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Signals/signal_v1.h
+	"slot.h"
+	"signals_impl.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Signals/slot.h
+	"../api_core.h"
+	"signals_impl.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Signals/signals_impl.h
+	"../api_core.h"
+	<memory>
+	<vector>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/System/setup_core.h
+	"../api_core.h"
+	<vector>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/System/thread.h
+	"../api_core.h"
+	"runnable.h"
+	"exception.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/System/thread_local_storage.h
+	"../api_core.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/System/keep_alive.h
+	"../api_core.h"
+	"../Signals/callback_0.h"
+	"../Signals/callback_v1.h"
+	"../Signals/callback_2.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Signals/callback_0.h
+	"../System/exception.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Signals/callback_v1.h
+	"../System/exception.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Signals/callback_2.h
+	"../System/exception.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/System/timer.h
+	"../api_core.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/System/registry_key.h
+	"../api_core.h"
+	"databuffer.h"
+	<vector>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/System/interlocked_variable.h
+	"../api_core.h"
+	"system.h"
+	<windows.h>
+	"../System/cl_platform.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/System/userdata.h
+	"../api_core.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/System/game_time.h
+	"../api_core.h"
+	"../System/cl_platform.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/System/work_queue.h
+	"../api_core.h"
+	<memory>
+	<functional>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/ErrorReporting/crash_reporter.h
+	<string>
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/ErrorReporting/detect_hang.h
+	<string>
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/ErrorReporting/exception_dialog.h
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Signals/callback_1.h
+	"../System/exception.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Signals/callback_3.h
+	"../System/exception.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Signals/callback_4.h
+	"../System/exception.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Signals/callback_5.h
+	"../System/exception.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Signals/callback_6.h
+	"../System/exception.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Signals/callback_v0.h
+	"../System/exception.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Signals/callback_v2.h
+	"../System/exception.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Signals/callback_v3.h
+	"../System/exception.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Signals/callback_v4.h
+	"../System/exception.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Signals/callback_v5.h
+	"../System/exception.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Signals/callback_v6.h
+	"../System/exception.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Signals/signal_v0.h
+	"../api_core.h"
+	"slot.h"
+	"signals_impl.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Signals/signal_v2.h
+	"slot.h"
+	"signals_impl.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Signals/signal_v3.h
+	"slot.h"
+	"signals_impl.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Signals/signal_v4.h
+	"slot.h"
+	"signals_impl.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Signals/signal_v5.h
+	"slot.h"
+	"signals_impl.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Signals/signal_v6.h
+	"slot.h"
+	"signals_impl.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Signals/slot_container.h
+	"../api_core.h"
+	"slot.h"
+	"signal_v0.h"
+	"signal_v1.h"
+	"signal_v2.h"
+	"signal_v3.h"
+	"signal_v4.h"
+	"signal_v5.h"
+	<vector>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Resources/resource.h
+	"../api_core.h"
+	<memory>
+	<map>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Resources/resource_container.h
+	"../api_core.h"
+	"resource_object.h"
+	<memory>
+	<map>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Resources/resource_object.h
+	"../api_core.h"
+	"resource.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Resources/resource_manager.h
+	"../api_core.h"
+	"../System/userdata.h"
+	<string>
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Resources/xml_resource_node.h
+	"../api_core.h"
+	"../Resources/xml_resource_document.h"
+	"../IOData/file_system.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Resources/xml_resource_document.h
+	"../api_core.h"
+	"../Resources/xml_resource_node.h"
+	"../IOData/file_system.h"
+	<vector>
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/IOData/file_system.h
+	"../api_core.h"
+	<memory>
+	"file.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/IOData/file.h
+	"../api_core.h"
+	"iodevice.h"
+	"../System/databuffer.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/IOData/iodevice.h
+	"../api_core.h"
+	"../System/cl_platform.h"
+	<memory>
+	<string>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Resources/xml_resource_manager.h
+	"../api_core.h"
+	"../Signals/callback_v2.h"
+	<string>
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/JSON/json_value.h
+	<map>
+	<vector>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/XML/dom_processing_instruction.h
+	"../api_core.h"
+	"dom_node.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/XML/dom_node.h
+	"../api_core.h"
+	<memory>
+	"dom_string.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/XML/dom_string.h
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/XML/dom_entity_reference.h
+	"../api_core.h"
+	"dom_node.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/XML/dom_notation.h
+	"../api_core.h"
+	"dom_node.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/XML/dom_exception.h
+	"../api_core.h"
+	"../System/exception.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/XML/dom_cdata_section.h
+	"../api_core.h"
+	"dom_text.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/XML/dom_text.h
+	"../api_core.h"
+	"dom_character_data.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/XML/dom_character_data.h
+	"../api_core.h"
+	"dom_node.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/XML/dom_document_fragment.h
+	"../api_core.h"
+	"dom_node.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/XML/dom_comment.h
+	"../api_core.h"
+	"dom_character_data.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/XML/dom_attr.h
+	"../api_core.h"
+	"dom_node.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/XML/dom_entity.h
+	"../api_core.h"
+	"dom_node.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/XML/dom_document_type.h
+	"../api_core.h"
+	"dom_node.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/XML/dom_document.h
+	"../api_core.h"
+	"dom_node.h"
+	<vector>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/XML/dom_implementation.h
+	"../api_core.h"
+	<memory>
+	"dom_string.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/XML/dom_node_list.h
+	"../api_core.h"
+	<memory>
+	"dom_string.h"
+	<vector>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/XML/dom_named_node_map.h
+	"../api_core.h"
+	<memory>
+	"dom_string.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/XML/dom_element.h
+	"../api_core.h"
+	"dom_node.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/XML/xml_tokenizer.h
+	"../api_core.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/XML/xml_writer.h
+	"../api_core.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/XML/xml_token.h
+	"../api_core.h"
+	<vector>
+	<utility>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/XML/xpath_evaluator.h
+	<memory>
+	"xpath_object.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/XML/xpath_object.h
+	<memory>
+	<vector>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/IOData/file_help.h
+	"../api_core.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/IOData/path_help.h
+	"../api_core.h"
+	<vector>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/IOData/iodevice_provider.h
+	"../api_core.h"
+	"iodevice.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/IOData/pipe_connection.h
+	"../api_core.h"
+	"iodevice.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/IOData/pipe_listen.h
+	"../api_core.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/IOData/directory.h
+	"../api_core.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/IOData/cl_endian.h
+	"../api_core.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/IOData/directory_scanner.h
+	"../api_core.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/IOData/file_system_provider.h
+	"../api_core.h"
+	<memory>
+	"file.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/IOData/directory_listing.h
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/IOData/iodevice_memory.h
+	"../api_core.h"
+	"iodevice.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/IOData/html_url.h
+	"../api_core.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Zip/zip_archive.h
+	"../api_core.h"
+	<memory>
+	"zip_file_entry.h"
+	<vector>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Zip/zip_file_entry.h
+	"../api_core.h"
+	<memory>
+	"../System/cl_platform.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Zip/zip_writer.h
+	"../api_core.h"
+	<memory>
+	"../System/cl_platform.h"
+	<vector>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Zip/zip_reader.h
+	"../api_core.h"
+	<memory>
+	"../System/cl_platform.h"
+	<vector>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Zip/zlib_compression.h
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/angle.h
+	"../api_core.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/base64_encoder.h
+	"../api_core.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/base64_decoder.h
+	"../api_core.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/bezier_curve.h
+	"../api_core.h"
+	<memory>
+	<vector>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/circle.h
+	"point.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/point.h
+	"../api_core.h"
+	"vec2.h"
+	"angle.h"
+	"origin.h"
+	"size.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/vec2.h
+	"../api_core.h"
+	<cmath>
+	"vec3.h"
+	"vec4.h"
+	"origin.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/vec3.h
+	"../api_core.h"
+	<cmath>
+	"vec2.h"
+	"vec4.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/vec4.h
+	"../api_core.h"
+	<cmath>
+	"vec2.h"
+	"vec3.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/origin.h
+	"../api_core.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/size.h
+	"../api_core.h"
+	"vec2.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/delauney_triangulator.h
+	"../api_core.h"
+	<memory>
+	<vector>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/ear_clip_triangulator.h
+	"../api_core.h"
+	<memory>
+	"../Math/point.h"
+	<vector>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/ear_clip_result.h
+	"../api_core.h"
+	<memory>
+	<vector>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/line_math.h
+	"../api_core.h"
+	"point.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/cl_math.h
+	"../api_core.h"
+	<cmath>
+	"../System/cl_platform.h"
+	"vec4.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/quaternion.h
+	"../api_core.h"
+	"vec3.h"
+	"angle.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/mat2.h
+	"../api_core.h"
+	"../System/cl_platform.h"
+	"mat3.h"
+	"mat4.h"
+	"vec2.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/mat3.h
+	"../api_core.h"
+	"mat2.h"
+	"mat4.h"
+	"vec3.h"
+	"../System/cl_platform.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/mat4.h
+	"../api_core.h"
+	"../System/cl_platform.h"
+	"mat2.h"
+	"mat3.h"
+	"vec3.h"
+	"angle.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/outline_triangulator.h
+	"../api_core.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/pointset_math.h
+	"../api_core.h"
+	<vector>
+	"point.h"
+	"circle.h"
+	"rect.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/rect.h
+	"../api_core.h"
+	"vec2.h"
+	"size.h"
+	"point.h"
+	"origin.h"
+	"cl_math.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/quad.h
+	"../api_core.h"
+	"rect.h"
+	"size.h"
+	"point.h"
+	"origin.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/rect_packer.h
+	"../api_core.h"
+	<memory>
+	"rect.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/half_float.h
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/half_float_vector.h
+	"half_float.h"
+	"vec2.h"
+	"vec3.h"
+	"vec4.h"
+	"point.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/big_int.h
+	"../api_core.h"
+	"../System/cl_platform.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/frustum_planes.h
+	"mat4.h"
+	"vec4.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/intersection_test.h
+	"vec4.h"
+	"vec3.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/aabb.h
+	"vec3.h"
+	"cl_math.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/obb.h
+	"vec3.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Crypto/random.h
+	"../api_core.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Crypto/secret.h
+	"../api_core.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Crypto/sha1.h
+	"../api_core.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Crypto/md5.h
+	"../api_core.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Crypto/sha224.h
+	"../api_core.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Crypto/sha256.h
+	"../api_core.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Crypto/sha384.h
+	"../api_core.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Crypto/sha512.h
+	"../api_core.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Crypto/sha512_224.h
+	"../api_core.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Crypto/sha512_256.h
+	"../api_core.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Crypto/aes128_encrypt.h
+	"../api_core.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Crypto/aes128_decrypt.h
+	"../api_core.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Crypto/aes192_encrypt.h
+	"../api_core.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Crypto/aes192_decrypt.h
+	"../api_core.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Crypto/aes256_encrypt.h
+	"../api_core.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Crypto/aes256_decrypt.h
+	"../api_core.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Crypto/rsa.h
+	"../api_core.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Crypto/tls_client.h
+	"../api_core.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/triangle_math.h
+	"../api_core.h"
+	"vec3.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/line.h
+	"../api_core.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/line_ray.h
+	"../api_core.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Math/line_segment.h
+	"../api_core.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/Crypto/hash_functions.h
+	"../api_core.h"
+	"../System/cl_platform.h"
+	"../Crypto/sha1.h"
+	"../Crypto/md5.h"
+	"../Crypto/sha224.h"
+	"../Crypto/sha256.h"
+	"../Crypto/sha384.h"
+	"../Crypto/sha512.h"
+	"../Crypto/sha512_224.h"
+	"../Crypto/sha512_256.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Core/core_iostream.h
+	<iosfwd>
+	<iostream>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/display.h
+	"Display/display.h"
+	"Display/display_target.h"
+	"Display/setup_display.h"
+	"Display/screen_info.h"
+	"Display/Resources/display_cache.h"
+	"Display/2D/canvas.h"
+	"Display/2D/color.h"
+	"Display/2D/color_hsv.h"
+	"Display/2D/color_hsl.h"
+	"Display/2D/gradient.h"
+	"Display/2D/image.h"
+	"Display/2D/sprite.h"
+	"Display/2D/path2d.h"
+	"Display/2D/shape2d.h"
+	"Display/2D/subtexture.h"
+	"Display/2D/texture_group.h"
+	"Display/2D/span_layout.h"
+	"Display/Collision/collision_outline.h"
+	"Display/Collision/contour.h"
+	"Display/Collision/outline_accuracy.h"
+	"Display/Collision/outline_circle.h"
+	"Display/Collision/outline_math.h"
+	"Display/Font/font.h"
+	"Display/Font/font_description.h"
+	"Display/Font/font_metrics.h"
+	"Display/Font/vector_font.h"
+	"Display/Image/pixel_buffer.h"
+	"Display/Image/pixel_buffer_lock.h"
+	"Display/Image/pixel_buffer_help.h"
+	"Display/Image/pixel_buffer_set.h"
+	"Display/Image/icon_set.h"
+	"Display/Image/perlin_noise.h"
+	"Display/Image/image_import_description.h"
+	"Display/Image/pixel_converter.h"
+	"Display/ImageProviders/jpeg_provider.h"
+	"Display/ImageProviders/png_provider.h"
+	"Display/ImageProviders/provider_factory.h"
+	"Display/ImageProviders/provider_type.h"
+	"Display/ImageProviders/provider_type_register.h"
+	"Display/ImageProviders/targa_provider.h"
+	"Display/ImageProviders/dds_provider.h"
+	"Display/Render/blend_state.h"
+	"Display/Render/blend_state_description.h"
+	"Display/Render/depth_stencil_state.h"
+	"Display/Render/depth_stencil_state_description.h"
+	"Display/Render/rasterizer_state.h"
+	"Display/Render/rasterizer_state_description.h"
+	"Display/Render/element_array_buffer.h"
+	"Display/Render/element_array_vector.h"
+	"Display/Render/transfer_buffer.h"
+	"Display/Render/transfer_vector.h"
+	"Display/Render/frame_buffer.h"
+	"Display/Render/graphic_context.h"
+	"Display/Render/occlusion_query.h"
+	"Display/Render/primitives_array.h"
+	"Display/Render/program_object.h"
+	"Display/Render/uniform_buffer.h"
+	"Display/Render/uniform_vector.h"
+	"Display/Render/storage_buffer.h"
+	"Display/Render/storage_vector.h"
+	"Display/Render/render_batcher.h"
+	"Display/Render/render_buffer.h"
+	"Display/Render/shader_object.h"
+	"Display/Render/shared_gc_data.h"
+	"Display/Render/texture.h"
+	"Display/Render/transfer_texture.h"
+	"Display/Render/texture_1d.h"
+	"Display/Render/texture_1d_array.h"
+	"Display/Render/texture_2d.h"
+	"Display/Render/texture_2d_array.h"
+	"Display/Render/texture_3d.h"
+	"Display/Render/texture_cube.h"
+	"Display/Render/texture_cube_array.h"
+	"Display/Render/vertex_array_buffer.h"
+	"Display/Render/vertex_array_vector.h"
+	"Display/ShaderEffect/shader_effect.h"
+	"Display/ShaderEffect/shader_effect_description.h"
+	"Display/TargetProviders/cursor_provider.h"
+	"Display/TargetProviders/display_target_provider.h"
+	"Display/TargetProviders/display_window_provider.h"
+	"Display/TargetProviders/element_array_buffer_provider.h"
+	"Display/TargetProviders/transfer_buffer_provider.h"
+	"Display/TargetProviders/pixel_buffer_provider.h"
+	"Display/TargetProviders/frame_buffer_provider.h"
+	"Display/TargetProviders/graphic_context_provider.h"
+	"Display/TargetProviders/input_device_provider.h"
+	"Display/TargetProviders/occlusion_query_provider.h"
+	"Display/TargetProviders/program_object_provider.h"
+	"Display/TargetProviders/render_buffer_provider.h"
+	"Display/TargetProviders/shader_object_provider.h"
+	"Display/TargetProviders/texture_provider.h"
+	"Display/TargetProviders/uniform_buffer_provider.h"
+	"Display/TargetProviders/storage_buffer_provider.h"
+	"Display/TargetProviders/vertex_array_buffer_provider.h"
+	"Display/TargetProviders/primitives_array_provider.h"
+	"Display/Window/cursor.h"
+	"Display/Window/cursor_description.h"
+	"Display/Window/display_window.h"
+	"Display/Window/display_window_description.h"
+	"Display/Window/input_context.h"
+	"Display/Window/input_device.h"
+	"Display/Window/input_event.h"
+	"Display/Window/keys.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/display.h
+	"api_display.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/api_display.h
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/display_target.h
+	"api_display.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/setup_display.h
+	"api_display.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/screen_info.h
+	"api_display.h"
+	<memory>
+	<vector>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Resources/display_cache.h
+	"../api_display.h"
+	"../../Core/Resources/resource.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/2D/canvas.h
+	"../api_display.h"
+	"../Render/graphic_context.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Render/graphic_context.h
+	"../api_display.h"
+	"../2D/color.h"
+	"../Image/texture_format.h"
+	<memory>
+	"../../Core/Math/mat4.h"
+	"../../Core/Math/rect.h"
+	"../../Core/Signals/signal_v0.h"
+	"primitives_array.h"
+	"frame_buffer.h"
+	"element_array_vector.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/2D/color.h
+	"../api_display.h"
+	"../../Core/Math/vec4.h"
+	<vector>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Image/texture_format.h
+	"../api_display.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Render/primitives_array.h
+	"../api_display.h"
+	<memory>
+	"../../Core/Math/vec3.h"
+	"../2D/color.h"
+	"vertex_array_vector.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Render/vertex_array_vector.h
+	"vertex_array_buffer.h"
+	"transfer_vector.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Render/vertex_array_buffer.h
+	<memory>
+	"../api_display.h"
+	"../Image/buffer_usage.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Image/buffer_usage.h
+	"../api_display.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Render/transfer_vector.h
+	"transfer_buffer.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Render/transfer_buffer.h
+	<memory>
+	"../api_display.h"
+	"../Image/buffer_usage.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Render/frame_buffer.h
+	"../api_display.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Render/element_array_vector.h
+	"element_array_buffer.h"
+	"transfer_vector.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Render/element_array_buffer.h
+	<memory>
+	"../api_display.h"
+	"vertex_array_buffer.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/2D/color_hsv.h
+	"../api_display.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/2D/color_hsl.h
+	"../api_display.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/2D/gradient.h
+	"../api_display.h"
+	"color.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/2D/image.h
+	"../api_display.h"
+	<memory>
+	"../../Core/Math/origin.h"
+	"../../Core/Resources/resource.h"
+	"color.h"
+	"../Image/image_import_description.h"
+	"../Render/texture.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Image/image_import_description.h
+	"../api_display.h"
+	<memory>
+	"../../Core/Signals/callback_1.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Render/texture.h
+	"../api_display.h"
+	<memory>
+	"../../Core/IOData/file_system.h"
+	"../../Core/Resources/resource.h"
+	"graphic_context.h"
+	"../Image/image_import_description.h"
+	"../Image/texture_format.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/2D/sprite.h
+	<memory>
+	"../api_display.h"
+	"../../Core/Math/origin.h"
+	"../../Core/Signals/signal_v0.h"
+	"../../Core/IOData/file_system.h"
+	"../../Core/Resources/resource.h"
+	"../Render/graphic_context.h"
+	"../Image/image_import_description.h"
+	"../Collision/collision_outline.h"
+	"color.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Collision/collision_outline.h
+	"../api_display.h"
+	<vector>
+	"contour.h"
+	"outline_accuracy.h"
+	"../Render/graphic_context.h"
+	"../../Core/Resources/xml_resource_node.h"
+	"../../Core/Math/cl_math.h"
+	"../../Core/Math/origin.h"
+	"../../Core/Math/circle.h"
+	"../../Core/IOData/file_system.h"
+	"../../Core/Resources/resource.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Collision/contour.h
+	"../api_display.h"
+	<memory>
+	<vector>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Collision/outline_accuracy.h
+	"../api_display.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/2D/path2d.h
+	"../api_display.h"
+	<vector>
+	"../../Core/Math/point.h"
+	"../../Core/Math/ear_clip_triangulator.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/2D/shape2d.h
+	"../api_display.h"
+	"path2d.h"
+	<vector>
+	"../Render/primitives_array.h"
+	"color.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/2D/subtexture.h
+	"../api_display.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/2D/texture_group.h
+	"../api_display.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/2D/span_layout.h
+	<memory>
+	"../../Core/Math/rect.h"
+	"../../Core/Math/size.h"
+	"color.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Collision/outline_circle.h
+	"../api_display.h"
+	"../../Core/Math/point.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Collision/outline_math.h
+	"../api_display.h"
+	<vector>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Font/font.h
+	"../api_display.h"
+	<memory>
+	"../Render/graphic_context.h"
+	"../Image/pixel_buffer.h"
+	"../2D/sprite.h"
+	"../../Core/Signals/callback_2.h"
+	"font_description.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Image/pixel_buffer.h
+	"../api_display.h"
+	<memory>
+	"../../Core/Math/rect.h"
+	"texture_format.h"
+	"buffer_usage.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Font/font_description.h
+	"../api_display.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Font/font_metrics.h
+	"../api_display.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Font/vector_font.h
+	"../api_display.h"
+	"font.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Image/pixel_buffer_lock.h
+	"../api_display.h"
+	<memory>
+	"../../Core/Math/vec2.h"
+	"../../Core/Math/vec3.h"
+	"../../Core/Math/vec4.h"
+	"../../Core/Math/half_float_vector.h"
+	"pixel_buffer.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Image/pixel_buffer_help.h
+	"../api_display.h"
+	"pixel_buffer.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Image/pixel_buffer_set.h
+	"../api_display.h"
+	<memory>
+	"../../Core/Math/rect.h"
+	"../Render/texture.h"
+	"texture_format.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Image/icon_set.h
+	"../api_display.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Image/perlin_noise.h
+	"../api_display.h"
+	<memory>
+	"pixel_buffer.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Image/pixel_converter.h
+	"../api_display.h"
+	<memory>
+	"../../Core/Math/vec4.h"
+	"texture_format.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/ImageProviders/jpeg_provider.h
+	"../api_display.h"
+	"../Image/pixel_buffer.h"
+	"../../Core/IOData/file_system.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/ImageProviders/png_provider.h
+	"../api_display.h"
+	"../Image/pixel_buffer.h"
+	"../../Core/IOData/file_system.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/ImageProviders/provider_factory.h
+	"../api_display.h"
+	<map>
+	"../../Core/IOData/file_system.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/ImageProviders/provider_type.h
+	"../api_display.h"
+	"../Image/pixel_buffer.h"
+	"../../Core/IOData/file_system.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/ImageProviders/provider_type_register.h
+	"../api_display.h"
+	"../../Core/IOData/file_system.h"
+	"provider_type.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/ImageProviders/targa_provider.h
+	"../api_display.h"
+	"../Image/pixel_buffer.h"
+	"../../Core/IOData/file_system.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/ImageProviders/dds_provider.h
+	"../api_display.h"
+	"../Image/pixel_buffer_set.h"
+	"../../Core/IOData/file_system.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Render/blend_state.h
+	"../api_display.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Render/blend_state_description.h
+	"../api_display.h"
+	"graphic_context.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Render/depth_stencil_state.h
+	"../api_display.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Render/depth_stencil_state_description.h
+	"../api_display.h"
+	"graphic_context.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Render/rasterizer_state.h
+	"../api_display.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Render/rasterizer_state_description.h
+	"../api_display.h"
+	"graphic_context.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Render/occlusion_query.h
+	"../api_display.h"
+	<memory>
+	"graphic_context.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Render/program_object.h
+	"../api_display.h"
+	<memory>
+	"../../Core/IOData/file_system.h"
+	"graphic_context.h"
+	"uniform_vector.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Render/uniform_vector.h
+	<memory>
+	"../api_display.h"
+	"uniform_buffer.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Render/uniform_buffer.h
+	<memory>
+	"../api_display.h"
+	"../Image/buffer_usage.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Render/storage_buffer.h
+	<memory>
+	"../api_display.h"
+	"../Image/buffer_usage.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Render/storage_vector.h
+	<memory>
+	"../api_display.h"
+	"storage_buffer.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Render/render_batcher.h
+	"../api_display.h"
+	"../../Core/Math/mat4.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Render/render_buffer.h
+	"../api_display.h"
+	<memory>
+	"texture.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Render/shader_object.h
+	<memory>
+	"../../Core/IOData/file_system.h"
+	"graphic_context.h"
+	"../api_display.h"
+	<vector>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Render/shared_gc_data.h
+	"../api_display.h"
+	"../../Core/Signals/signal_v0.h"
+	"texture.h"
+	"../Image/image_import_description.h"
+	<vector>
+	<map>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Render/transfer_texture.h
+	"../api_display.h"
+	<memory>
+	"graphic_context.h"
+	"../Image/image_import_description.h"
+	"../Image/texture_format.h"
+	"../Image/pixel_buffer.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Render/texture_1d.h
+	"../api_display.h"
+	"texture.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Render/texture_1d_array.h
+	"../api_display.h"
+	"texture.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Render/texture_2d.h
+	"../api_display.h"
+	"texture.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Render/texture_2d_array.h
+	"../api_display.h"
+	"texture.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Render/texture_3d.h
+	"../api_display.h"
+	"texture.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Render/texture_cube.h
+	"../api_display.h"
+	"texture.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Render/texture_cube_array.h
+	"../api_display.h"
+	"texture_cube.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/ShaderEffect/shader_effect.h
+	<memory>
+	"../Render/graphic_context.h"
+	"../api_display.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/ShaderEffect/shader_effect_description.h
+	<memory>
+	"../api_display.h"
+	"../Render/graphic_context.h"
+	"../Render/rasterizer_state_description.h"
+	"../Render/blend_state_description.h"
+	"../Render/depth_stencil_state_description.h"
+	"../Render/storage_buffer.h"
+	"../Render/uniform_buffer.h"
+	"../Render/texture.h"
+	"../Render/render_buffer.h"
+	"../../Core/Resources/resource.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/TargetProviders/cursor_provider.h
+	"../api_display.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/TargetProviders/display_target_provider.h
+	"../api_display.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/TargetProviders/display_window_provider.h
+	"../api_display.h"
+	"../../Core/Signals/signal_v0.h"
+	"../../Core/Signals/signal_v1.h"
+	"../../Core/Signals/signal_v2.h"
+	"../../Core/Signals/callback_v1.h"
+	"../Window/display_window.h"
+	<memory>
+	<X11/Xlib.h>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Window/display_window.h
+	"../api_display.h"
+	"../../Core/Signals/signal_v0.h"
+	"../../Core/Signals/signal_v1.h"
+	"../../Core/Signals/signal_v2.h"
+	"../../Core/Signals/callback_v1.h"
+	"../../Core/Signals/callback_0.h"
+	"../../Core/Signals/callback_4.h"
+	"../display_target.h"
+	<memory>
+	<X11/Xlib.h>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/TargetProviders/element_array_buffer_provider.h
+	"../Render/element_array_buffer.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/TargetProviders/transfer_buffer_provider.h
+	"../Render/transfer_buffer.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/TargetProviders/pixel_buffer_provider.h
+	"../Render/element_array_buffer.h"
+	"../Image/pixel_buffer.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/TargetProviders/frame_buffer_provider.h
+	"../api_display.h"
+	"../Render/frame_buffer.h"
+	<vector>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/TargetProviders/graphic_context_provider.h
+	"../api_display.h"
+	<memory>
+	"../Render/graphic_context.h"
+	"../Render/primitives_array.h"
+	"../Render/texture.h"
+	"../../Core/Math/mat4.h"
+	"../../Core/Signals/signal_v1.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/TargetProviders/input_device_provider.h
+	"../api_display.h"
+	"../Window/input_device.h"
+	"../../Core/System/disposable_object.h"
+	<memory>
+	"../../Core/Signals/signal_v1.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Window/input_device.h
+	"../api_display.h"
+	"../../Core/Signals/signal_v1.h"
+	"../../Core/Math/point.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/TargetProviders/occlusion_query_provider.h
+	"../api_display.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/TargetProviders/program_object_provider.h
+	<vector>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/TargetProviders/render_buffer_provider.h
+	"../api_display.h"
+	"../Render/texture.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/TargetProviders/shader_object_provider.h
+	"shader_object_provider.h"
+	"../Render/shader_object.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/TargetProviders/texture_provider.h
+	"../Render/texture.h"
+	"../api_display.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/TargetProviders/uniform_buffer_provider.h
+	"../Render/uniform_buffer.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/TargetProviders/storage_buffer_provider.h
+	"../Render/storage_buffer.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/TargetProviders/vertex_array_buffer_provider.h
+	"../Render/vertex_array_buffer.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/TargetProviders/primitives_array_provider.h
+	"../api_display.h"
+	"../Render/primitives_array.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Window/cursor.h
+	"../api_display.h"
+	<memory>
+	"../display_target.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Window/cursor_description.h
+	"../api_display.h"
+	"../Render/graphic_context.h"
+	"../Render/texture_2d.h"
+	"../Image/pixel_buffer.h"
+	<vector>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Window/display_window_description.h
+	"../api_display.h"
+	<memory>
+	<windows.h>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Window/input_context.h
+	"../api_display.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Window/input_event.h
+	"../api_display.h"
+	"input_device.h"
+	"keys.h"
+	"../../Core/Math/point.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/Display/Window/keys.h
+	<windows.h>
+	<X11/keysym.h>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/gl.h
+	"GL/opengl.h"
+	"GL/opengl_defines.h"
+	"GL/opengl_target.h"
+	"GL/opengl_window_description.h"
+	"GL/opengl_wrap.h"
+	"GL/setup_gl.h"
+	"GL/opengl_graphic_context.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GL/opengl.h
+	"api_gl.h"
+	"opengl_defines.h"
+	<utility>
+	"../Display/Render/texture.h"
+	"../Core/System/thread_local_storage.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GL/api_gl.h
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GL/opengl_defines.h
+	"api_gl.h"
+	"../Core/System/cl_platform.h"
+	<OpenGLES/ES2/gl.h>
+	<OpenGLES/ES2/glext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glext.h>
+	<GL/gl.h>
+	<cstddef>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GL/opengl_target.h
+	"api_gl.h"
+	"../Display/display_target.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GL/opengl_window_description.h
+	"api_gl.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GL/opengl_wrap.h
+	"opengl.h"
+	"opengl_defines.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GL/setup_gl.h
+	"api_gl.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GL/opengl_graphic_context.h
+	"api_gl.h"
+	<memory>
+	"../Display/Render/graphic_context.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/application.h
+	"App/clanapp.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/App/clanapp.h
+	"api_app.h"
+	<vector>
+	<string>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/App/api_app.h
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/gui.h
+	"GUI/setup_gui.h"
+	"GUI/accelerator_table.h"
+	"GUI/accelerator_key.h"
+	"GUI/gui_component.h"
+	"GUI/gui_theme_part.h"
+	"GUI/gui_layout.h"
+	"GUI/gui_layout_corners.h"
+	"GUI/gui_message.h"
+	"GUI/gui_message_input.h"
+	"GUI/gui_message_resize.h"
+	"GUI/gui_message_focus_change.h"
+	"GUI/gui_message_activation_change.h"
+	"GUI/gui_message_close.h"
+	"GUI/gui_message_pointer.h"
+	"GUI/gui_manager.h"
+	"GUI/gui_window_manager.h"
+	"GUI/gui_window_manager_system.h"
+	"GUI/gui_window_manager_texture.h"
+	"GUI/gui_window_manager_texture_window.h"
+	"GUI/gui_window_manager_direct.h"
+	"GUI/Components/checkbox.h"
+	"GUI/Components/combobox.h"
+	"GUI/Components/folderbrowsedialog.h"
+	"GUI/Components/frame.h"
+	"GUI/Components/groupbox.h"
+	"GUI/Components/imageview.h"
+	"GUI/Components/label.h"
+	"GUI/Components/lineedit.h"
+	"GUI/Components/listview.h"
+	"GUI/Components/listview_header.h"
+	"GUI/Components/listview_column_data.h"
+	"GUI/Components/menubar.h"
+	"GUI/Components/message_box.h"
+	"GUI/Components/openfiledialog.h"
+	"GUI/Components/popupmenu.h"
+	"GUI/Components/progressbar.h"
+	"GUI/Components/push_button.h"
+	"GUI/Components/radiobutton.h"
+	"GUI/Components/dragbox.h"
+	"GUI/Components/savefiledialog.h"
+	"GUI/Components/scrollbar.h"
+	"GUI/Components/spin.h"
+	"GUI/Components/statusbar.h"
+	"GUI/Components/tab.h"
+	"GUI/Components/tab_page.h"
+	"GUI/Components/textedit.h"
+	"GUI/Components/toolbar.h"
+	"GUI/Components/window.h"
+	"GUI/Components/toolbar_item.h"
+	"GUI/Components/tooltip.h"
+	"GUI/Components/slider.h"
+	"GUI/Components/ribbon.h"
+	"GUI/Components/ribbon_menu.h"
+	"GUI/Components/ribbon_page.h"
+	"GUI/Components/ribbon_section.h"
+	"GUI/Providers/gui_layout_provider.h"
+	"GUI/Providers/gui_window_manager_provider.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/setup_gui.h
+	"api_gui.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/api_gui.h
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/accelerator_table.h
+	"api_gui.h"
+	<memory>
+	"../Core/Signals/callback_v1.h"
+	"../GUI/gui_message.h"
+	<vector>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/gui_message.h
+	"api_gui.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/accelerator_key.h
+	"api_gui.h"
+	<memory>
+	"../Core/Signals/callback_v2.h"
+	"../GUI/gui_message.h"
+	"../GUI/gui_message_input.h"
+	<vector>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/gui_message_input.h
+	"api_gui.h"
+	<memory>
+	"gui_message.h"
+	"../Display/Window/input_event.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/gui_component.h
+	"api_gui.h"
+	<memory>
+	"../Core/Signals/callback_0.h"
+	"../Core/Signals/callback_1.h"
+	"../Core/Signals/callback_v0.h"
+	"../Core/Signals/callback_v1.h"
+	"../Core/Signals/callback_v2.h"
+	"../Core/Signals/callback_v3.h"
+	"../Core/Signals/callback_2.h"
+	"../Core/Signals/signal_v1.h"
+	"../Core/IOData/file_system.h"
+	"../Display/Window/display_window_description.h"
+	"../Display/Window/display_window.h"
+	"../Display/Render/graphic_context.h"
+	"../Display/Window/input_context.h"
+	"../Display/2D/canvas.h"
+	"gui_layout.h"
+	<vector>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/gui_layout.h
+	"api_gui.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/gui_theme_part.h
+	"api_gui.h"
+	<memory>
+	"gui_component.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/gui_layout_corners.h
+	<memory>
+	"gui_layout.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/gui_message_resize.h
+	"api_gui.h"
+	<memory>
+	"gui_message.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/gui_message_focus_change.h
+	"api_gui.h"
+	<memory>
+	"gui_message.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/gui_message_activation_change.h
+	"api_gui.h"
+	<memory>
+	"gui_message.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/gui_message_close.h
+	"api_gui.h"
+	<memory>
+	"gui_message.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/gui_message_pointer.h
+	"api_gui.h"
+	<memory>
+	"gui_message.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/gui_manager.h
+	"api_gui.h"
+	"../Core/Signals/callback_0.h"
+	"../Core/Signals/callback_1.h"
+	"../Core/Signals/callback_2.h"
+	"../Core/Signals/signal_v1.h"
+	"../Core/Math/point.h"
+	"accelerator_table.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/gui_window_manager.h
+	"api_gui.h"
+	"gui_component.h"
+	"../Core/Signals/signal_v1.h"
+	"../Core/Signals/signal_v2.h"
+	"../Core/Signals/signal_v3.h"
+	<vector>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/gui_window_manager_system.h
+	"api_gui.h"
+	"gui_window_manager.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/gui_window_manager_texture.h
+	"api_gui.h"
+	"gui_window_manager.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/gui_window_manager_texture_window.h
+	"api_gui.h"
+	"gui_window_manager.h"
+	<memory>
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/gui_window_manager_direct.h
+	"api_gui.h"
+	"gui_window_manager.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/checkbox.h
+	"../api_gui.h"
+	"../gui_component.h"
+	"../../Core/Signals/callback_v0.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/combobox.h
+	"../api_gui.h"
+	"../gui_component.h"
+	"../../Core/Signals/callback_v0.h"
+	"../../Core/Signals/callback_v1.h"
+	"../../Core/Signals/callback_1.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/folderbrowsedialog.h
+	"../api_gui.h"
+	"../gui_component.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/frame.h
+	"../api_gui.h"
+	"../gui_component.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/groupbox.h
+	"../api_gui.h"
+	"../gui_component.h"
+	"../../Display/Render/graphic_context.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/imageview.h
+	"../api_gui.h"
+	"../gui_component.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/label.h
+	"../api_gui.h"
+	"../gui_component.h"
+	"../../Core/Signals/callback_v0.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/lineedit.h
+	"../api_gui.h"
+	"../gui_component.h"
+	"../../Display/Window/input_event.h"
+	"../../Core/Signals/callback_v0.h"
+	"../../Core/Signals/callback_v1.h"
+	"../../Core/Signals/callback_1.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/listview.h
+	"../api_gui.h"
+	"../gui_component.h"
+	"listview_item.h"
+	"listview_selected_item.h"
+	"listview_column_header.h"
+	"listview_icon_list.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/listview_item.h
+	"../api_gui.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/listview_selected_item.h
+	"../api_gui.h"
+	"listview_item.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/listview_column_header.h
+	"../api_gui.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/listview_icon_list.h
+	"../api_gui.h"
+	"../../Display/2D/sprite.h"
+	"listview_icon.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/listview_icon.h
+	"../api_gui.h"
+	"../../Display/2D/sprite.h"
+	"listview.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/listview_header.h
+	"../api_gui.h"
+	"../gui_component.h"
+	"../../Core/Signals/callback_v0.h"
+	"../../Core/Signals/callback_v1.h"
+	"listview.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/listview_column_data.h
+	"../api_gui.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/menubar.h
+	"../api_gui.h"
+	"../gui_component.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/message_box.h
+	"../api_gui.h"
+	"../gui_component.h"
+	"../../Core/Signals/callback_v0.h"
+	"../../Display/Render/graphic_context.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/openfiledialog.h
+	"../api_gui.h"
+	"../gui_component.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/popupmenu.h
+	"../api_gui.h"
+	"../gui_component.h"
+	"../../Display/Window/input_event.h"
+	"popupmenu_item.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/popupmenu_item.h
+	"../api_gui.h"
+	"../gui_component.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/progressbar.h
+	"../api_gui.h"
+	"../gui_component.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/push_button.h
+	"../api_gui.h"
+	"../gui_component.h"
+	"../../Core/Signals/callback_v0.h"
+	"../../Display/Render/graphic_context.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/radiobutton.h
+	"../api_gui.h"
+	"../gui_component.h"
+	"../../Core/Signals/callback_v0.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/dragbox.h
+	"../api_gui.h"
+	"../gui_component.h"
+	"../../Core/Signals/callback_v0.h"
+	"../../Display/Render/graphic_context.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/savefiledialog.h
+	"../api_gui.h"
+	"../gui_component.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/scrollbar.h
+	"../api_gui.h"
+	"../gui_component.h"
+	"../../Core/Signals/callback_v0.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/spin.h
+	"../api_gui.h"
+	"../gui_component.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/statusbar.h
+	"../api_gui.h"
+	"../gui_component.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/tab.h
+	"../api_gui.h"
+	"../gui_component.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/tab_page.h
+	"../api_gui.h"
+	"../gui_component.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/textedit.h
+	"../api_gui.h"
+	"../gui_component.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/toolbar.h
+	"../api_gui.h"
+	"../gui_component.h"
+	"../../Core/Signals/callback_v0.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/window.h
+	"../api_gui.h"
+	"../gui_component.h"
+	"../../Core/Signals/callback_v0.h"
+	"../../Display/Render/graphic_context.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/toolbar_item.h
+	"../api_gui.h"
+	"../gui_component.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/tooltip.h
+	"../api_gui.h"
+	"../gui_component.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/slider.h
+	"../api_gui.h"
+	"../gui_component.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/ribbon.h
+	"../gui_component.h"
+	"../../Core/Signals/callback_v0.h"
+	"../../Core/Signals/callback_1.h"
+	"../gui_theme_part.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/ribbon_menu.h
+	"../../Display/2D/image.h"
+	"../gui_component.h"
+	"../gui_message_input.h"
+	"../gui_theme_part.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/ribbon_page.h
+	"../gui_component.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Components/ribbon_section.h
+	"../gui_component.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Providers/gui_layout_provider.h
+	"../api_gui.h"
+
+1390493838 /usr/include/ClanLib-3.0/ClanLib/GUI/Providers/gui_window_manager_provider.h
+	"../api_gui.h"
+	"../gui_window_manager.h"
+
+1399492603 source:/storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/main.cpp
+	"GameInstance.hpp"
+
+1407432015 /storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/Include/GameInstance.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+	<ClanLib/gui.h>
+	"./GameDisplayWindow.hpp"
+	"TrollMath.hpp"
+
+1407996951 source:/storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/GameInstance.cpp
+	"./Include/GameInstance.hpp"
+
+1407907068 source:/storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/World.cpp
+	"./Include/World.hpp"
+
+1407971207 /storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/Include/World.hpp
+	"Precomp.hpp"
+	"TrollMath.hpp"
+
+1407361458 /storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/Include/ToolBoxWindow.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+	<ClanLib/gui.h>
+	"GlobalVars.hpp"
+	"SmartWindow.hpp"
+	"ToolBoxButton.hpp"
+
+1407361487 source:/storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/ToolBoxWindow.cpp
+	"ToolBoxWindow.hpp"
+
+1406399587 /storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/Include/ToolBoxButton.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+	<ClanLib/gui.h>
+	"GlobalVars.hpp"
+	"ToolBoxWindow.hpp"
+
+1407906423 /storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/Include/GlobalVars.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+
+1406586092 source:/storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/ToolBoxButton.cpp
+	"ToolBoxButton.hpp"
+
+1407338188 /storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/Include/ComponentWindow.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+	<ClanLib/gui.h>
+	"GlobalVars.hpp"
+	"World.hpp"
+	"XMLReader.hpp"
+	"SmartWindow.hpp"
+
+1407338993 source:/storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/ComponentWindow.cpp
+	"ComponentWindow.hpp"
+
+1407822808 source:/storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/CustomElementCreatorWIndow.cpp
+	"CustomElementCreatorWIndow.hpp"
+
+1407348096 /storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/Include/CustomElementCreatorWIndow.hpp
+	"Precomp.hpp"
+	"GlobalVars.hpp"
+	"World.hpp"
+	"XMLReader.hpp"
+	"SmartWindow.hpp"
+	"FileOpenDialogWindow.hpp"
+	"SimpleOneLineDialogWindow.hpp"
+
+1393454147 source:/storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/PugiXML/pugixml.cpp
+	"pugixml.hpp"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<assert.h>
+	<wchar.h>
+	<math.h>
+	<float.h>
+	<setjmp.h>
+	<istream>
+	<ostream>
+	<string>
+	<new>
+	<stdint.h>
+
+1393300050 /storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/PugiXML/pugixml.hpp
+	"pugiconfig.hpp"
+	<stddef.h>
+	<exception>
+	<iterator>
+	<iosfwd>
+	<string>
+
+1393300085 /storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/PugiXML/pugiconfig.hpp
+
+1407337355 /storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/Include/XMLReader.hpp
+	"World.hpp"
+	"pugixml.hpp"
+
+1407194222 source:/storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/GlobalVars.cpp
+	"GlobalVars.hpp"
+
+1407361463 /storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/Include/SmartWindow.hpp
+	"Precomp.hpp"
+
+1407345221 /storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/Include/ElementBrowserWindow.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+	<ClanLib/gui.h>
+	"GlobalVars.hpp"
+	"World.hpp"
+	"XMLReader.hpp"
+	"SmartWindow.hpp"
+	"ElementListItem.hpp"
+
+1407346222 /storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/Include/ElementListItem.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+	<ClanLib/gui.h>
+	"GlobalVars.hpp"
+	"World.hpp"
+	"XMLReader.hpp"
+	"SmartWindow.hpp"
+
+1407884277 source:/storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/ElementBrowserWindow.cpp
+	"ElementBrowserWindow.hpp"
+
+1407348522 source:/storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/ElementListItem.cpp
+	"ElementListItem.hpp"
+
+1407346723 /storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/Include/Precomp.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+	<ClanLib/gui.h>
+	"GlobalVars.hpp"
+
+1407347673 /storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/Include/FileOpenDialogWindow.hpp
+	"Precomp.hpp"
+	"SmartWindow.hpp"
+	"FileOpenDialogFileLabel.hpp"
+
+1407346856 /storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/Include/FileOpenDialogFileLabel.hpp
+	"Precomp.hpp"
+
+1407348435 source:/storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/FileOpenDialogFileLabel.cpp
+	"FileOpenDialogFileLabel.hpp"
+
+1407348522 source:/storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/FileOpenDialogWindow.cpp
+	"FileOpenDialogWindow.hpp"
+
+1407347786 /storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/Include/SimpleOneLineDialogWindow.hpp
+	"Precomp.hpp"
+	"SmartWindow.hpp"
+
+1407348522 source:/storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/SimpleOneLineDialogWindow.cpp
+	"SimpleOneLineDialogWindow.hpp"
+
+1407361499 source:/storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/SmartWindow.cpp
+	"SmartWindow.hpp"
+
+1407970109 /storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/Include/TrollMath.hpp
+	"Precomp.hpp"
+
+1407997389 source:/storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/Trollmath/TrollMath.cpp
+	"TrollMath.hpp"
+
+1407996485 /storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/Trollmath/TrollMath.hpp
+	<math.h>
+
+1408143767 source:/user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/CustomElementCreatorWIndow.cpp
+	"CustomElementCreatorWIndow.hpp"
+	"ToolBar.hpp"
+
+1409014809 source:/user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/ElementBrowserWindow.cpp
+	"ElementBrowser.hpp"
+
+1409013063 source:/user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/ElementListItem.cpp
+	"ElementListItem.hpp"
+
+1407348435 source:/user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/FileOpenDialogFileLabel.cpp
+	"FileOpenDialogFileLabel.hpp"
+
+1407348522 source:/user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/FileOpenDialogWindow.cpp
+	"FileOpenDialogWindow.hpp"
+
+1409715065 source:/user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/GameDisplayWindow.cpp
+	"./Include/GameDisplayWindow.hpp"
+
+1409712637 /user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/Include/GameDisplayWindow.hpp
+	"Precomp.hpp"
+	"World.hpp"
+	"ToolBoxWindow.hpp"
+	"ElementBrowser.hpp"
+	"CustomElementCreatorWIndow.hpp"
+	"FileHelp.hpp"
+
+1407346723 /user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/Include/Precomp.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+	<ClanLib/gui.h>
+	"GlobalVars.hpp"
+
+1409713525 /user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/Include/GlobalVars.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+
+1407971207 /user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/Include/World.hpp
+	"Precomp.hpp"
+	"TrollMath.hpp"
+
+1407361458 /user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/Include/ToolBoxWindow.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+	<ClanLib/gui.h>
+	"GlobalVars.hpp"
+	"SmartWindow.hpp"
+	"ToolBoxButton.hpp"
+
+1407361463 /user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/Include/SmartWindow.hpp
+	"Precomp.hpp"
+
+1406399587 /user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/Include/ToolBoxButton.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+	<ClanLib/gui.h>
+	"GlobalVars.hpp"
+	"ToolBoxWindow.hpp"
+
+1409013102 /user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/Include/ElementBrowserWindow.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+	<ClanLib/gui.h>
+	"GlobalVars.hpp"
+	"World.hpp"
+	"XMLReader.hpp"
+	"SmartWindow.hpp"
+	"ElementListItem.hpp"
+
+1409680175 /user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/Include/XMLReader.hpp
+	"World.hpp"
+	"pugixml.hpp"
+
+1407346222 /user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/Include/ElementListItem.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+	<ClanLib/gui.h>
+	"GlobalVars.hpp"
+	"World.hpp"
+	"XMLReader.hpp"
+	"SmartWindow.hpp"
+
+1408143770 /user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/Include/CustomElementCreatorWIndow.hpp
+	"Precomp.hpp"
+	"GlobalVars.hpp"
+	"World.hpp"
+	"XMLReader.hpp"
+	"SmartWindow.hpp"
+	"FileOpenDialogWindow.hpp"
+	"SimpleOneLineDialogWindow.hpp"
+	"ToolBar.hpp"
+
+1407347673 /user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/Include/FileOpenDialogWindow.hpp
+	"Precomp.hpp"
+	"SmartWindow.hpp"
+	"FileOpenDialogFileLabel.hpp"
+
+1407346856 /user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/Include/FileOpenDialogFileLabel.hpp
+	"Precomp.hpp"
+
+1407347786 /user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/Include/SimpleOneLineDialogWindow.hpp
+	"Precomp.hpp"
+	"SmartWindow.hpp"
+
+1408067764 source:/user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/GameInstance.cpp
+	"./Include/GameInstance.hpp"
+
+1407432015 /user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/Include/GameInstance.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+	<ClanLib/gui.h>
+	"./GameDisplayWindow.hpp"
+	"TrollMath.hpp"
+
+1408668854 source:/user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/GlobalVars.cpp
+	"GlobalVars.hpp"
+
+1399492603 source:/user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/main.cpp
+	"GameInstance.hpp"
+
+1393454147 source:/user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/PugiXML/pugixml.cpp
+	"pugixml.hpp"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<assert.h>
+	<wchar.h>
+	<math.h>
+	<float.h>
+	<setjmp.h>
+	<istream>
+	<ostream>
+	<string>
+	<new>
+	<stdint.h>
+
+1393300050 /user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/PugiXML/pugixml.hpp
+	"pugiconfig.hpp"
+	<stddef.h>
+	<exception>
+	<iterator>
+	<iosfwd>
+	<string>
+
+1393300085 /user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/PugiXML/pugiconfig.hpp
+
+1407348522 source:/user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/SimpleOneLineDialogWindow.cpp
+	"SimpleOneLineDialogWindow.hpp"
+
+1407361499 source:/user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/SmartWindow.cpp
+	"SmartWindow.hpp"
+
+1406586092 source:/user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/ToolBoxButton.cpp
+	"ToolBoxButton.hpp"
+
+1407361487 source:/user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/ToolBoxWindow.cpp
+	"ToolBoxWindow.hpp"
+
+1407907068 source:/user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/World.cpp
+	"./Include/World.hpp"
+
+1407997389 source:/user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/Trollmath/TrollMath.cpp
+	"TrollMath.hpp"
+
+1407996485 /user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/Trollmath/TrollMath.hpp
+	<math.h>
+
+1408141424 source:/user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/ToolBar.cpp
+	"ToolBar.hpp"
+
+1409013541 /user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/Include/ToolBar.hpp
+	"Precomp.hpp"
+	"ElementBrowser.hpp"
+	"TabHeader.hpp"
+
+1409015360 /user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/Include/Tools/TabHeader.hpp
+	"Precomp.hpp"
+
+1409015764 source:/user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/Include/Tools/TabHeader.cpp
+	"./TabHeader.hpp"
+
+1409014809 source:/user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/ElementBrowser.cpp
+	"ElementBrowser.hpp"
+
+1409013102 /user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/Include/ElementBrowser.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+	<ClanLib/gui.h>
+	"GlobalVars.hpp"
+	"World.hpp"
+	"XMLReader.hpp"
+	"SmartWindow.hpp"
+	"ElementListItem.hpp"
+
+1409712957 /user_data/CodeProjects/DriftingRealmsWorldEditor[Thu Aug 14]/Include/FileHelp.hpp
+	"Precomp.hpp"
+
+1411005078 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/CustomElementCreatorWIndow.cpp
+	"CustomElementCreatorWIndow.hpp"
+	"ToolBar.hpp"
+
+1411770294 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/Include/CustomElementCreatorWIndow.hpp
+	"Precomp.hpp"
+	"GlobalVars.hpp"
+	"World.hpp"
+	"XMLReader.hpp"
+	"SmartWindow.hpp"
+	"FileOpenDialogWindow.hpp"
+	"SimpleOneLineDialogWindow.hpp"
+	"ToolBar.hpp"
+
+1412035854 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/Include/Precomp.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+	<ClanLib/gui.h>
+
+1412035105 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/Include/GlobalVars.hpp
+	"WorldElement.hpp"
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	"TrollMath.hpp"
+	"TrollPath.hpp"
+	"WorldElement.hpp"
+
+1409785677 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/Include/World.hpp
+
+1410389193 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/Trollmath/TrollMath.hpp
+	"ClanLib/core.h"
+	<math.h>
+
+1412210639 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/Include/XMLReader.hpp
+	"World.hpp"
+	"pugixml.hpp"
+
+1393300050 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/PugiXML/pugixml.hpp
+	"pugiconfig.hpp"
+	<stddef.h>
+	<exception>
+	<iterator>
+	<iosfwd>
+	<string>
+
+1393300085 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/PugiXML/pugiconfig.hpp
+
+1407361463 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/Include/SmartWindow.hpp
+	"Precomp.hpp"
+
+1407347673 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/Include/FileOpenDialogWindow.hpp
+	"Precomp.hpp"
+	"SmartWindow.hpp"
+	"FileOpenDialogFileLabel.hpp"
+
+1407346856 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/Include/FileOpenDialogFileLabel.hpp
+	"Precomp.hpp"
+
+1407347786 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/Include/SimpleOneLineDialogWindow.hpp
+	"Precomp.hpp"
+	"SmartWindow.hpp"
+
+1412817901 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/Include/ToolBar.hpp
+	"Precomp.hpp"
+	"ElementBrowser.hpp"
+	"TabHeader.hpp"
+	"TriggerTool.hpp"
+
+1412818214 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/Include/ElementBrowser.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+	<ClanLib/gui.h>
+	"GlobalVars.hpp"
+	"World.hpp"
+	"XMLReader.hpp"
+	"SmartWindow.hpp"
+	"ElementListItem.hpp"
+
+1412827274 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/Include/ElementListItem.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+	<ClanLib/gui.h>
+	"GlobalVars.hpp"
+	"World.hpp"
+	"XMLReader.hpp"
+	"SmartWindow.hpp"
+
+1412817684 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/Include/Tools/TabHeader.hpp
+	"Precomp.hpp"
+	"GlobalVars.hpp"
+
+1412827464 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/ElementListItem.cpp
+	"ElementListItem.hpp"
+
+1407348435 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/FileOpenDialogFileLabel.cpp
+	"FileOpenDialogFileLabel.hpp"
+
+1410928485 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/FileOpenDialogWindow.cpp
+	"FileOpenDialogWindow.hpp"
+
+1412833629 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/GameDisplayWindow.cpp
+	"./Include/GameDisplayWindow.hpp"
+	"TrollDebugDraw.hpp"
+
+1412832039 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/Include/GameDisplayWindow.hpp
+	"Precomp.hpp"
+	"World.hpp"
+	"ToolBoxWindow.hpp"
+	"ElementBrowser.hpp"
+	"CustomElementCreatorWIndow.hpp"
+	"FileHelp.hpp"
+	"TriggerEditor.hpp"
+
+1407361458 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/Include/ToolBoxWindow.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+	<ClanLib/gui.h>
+	"GlobalVars.hpp"
+	"SmartWindow.hpp"
+	"ToolBoxButton.hpp"
+
+1406399587 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/Include/ToolBoxButton.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+	<ClanLib/gui.h>
+	"GlobalVars.hpp"
+	"ToolBoxWindow.hpp"
+
+1412380775 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/Include/FileHelp.hpp
+	"Precomp.hpp"
+	"TrollMath.hpp"
+	"TrollPath.hpp"
+
+1408067764 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/GameInstance.cpp
+	"./Include/GameInstance.hpp"
+
+1407432015 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/Include/GameInstance.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+	<ClanLib/gui.h>
+	"./GameDisplayWindow.hpp"
+	"TrollMath.hpp"
+
+1410195523 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/GlobalVars.cpp
+	"GlobalVars.hpp"
+
+1412817832 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/Include/Tools/TabHeader.cpp
+	"./TabHeader.hpp"
+
+1399492603 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/main.cpp
+	"GameInstance.hpp"
+
+1393454147 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/PugiXML/pugixml.cpp
+	"pugixml.hpp"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<assert.h>
+	<wchar.h>
+	<math.h>
+	<float.h>
+	<setjmp.h>
+	<istream>
+	<ostream>
+	<string>
+	<new>
+	<stdint.h>
+
+1407348522 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/SimpleOneLineDialogWindow.cpp
+	"SimpleOneLineDialogWindow.hpp"
+
+1407361499 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/SmartWindow.cpp
+	"SmartWindow.hpp"
+
+1408141424 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/ToolBar.cpp
+	"ToolBar.hpp"
+
+1409719525 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/ToolBoxButton.cpp
+	"ToolBoxButton.hpp"
+
+1409811572 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/ToolBoxWindow.cpp
+	"ToolBoxWindow.hpp"
+
+1410389192 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/Trollmath/TrollMath.cpp
+	"TrollMath.hpp"
+
+1409785670 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/World.cpp
+
+1412045678 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/TrollPath/TrollPath.cpp
+	"TrollPath.hpp"
+
+1412049430 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/TrollPath/TrollPath.hpp
+	"TrollMath.hpp"
+	<math.h>
+
+1412831690 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/ElementBrowser.cpp
+	"ElementBrowser.hpp"
+
+1409949985 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/Include/TrollDebugDraw.hpp
+	"ClanLib/core.h"
+	"ClanLib/display.h"
+	"TrollMath.hpp"
+
+1412381233 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/Include/WorldElement.hpp
+	"Precomp.hpp"
+	"FileHelp.hpp"
+
+1410383019 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/Include/PathPolygon.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	"TrollMath.hpp"
+	"TrollPath.hpp"
+
+1412035714 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/WorldElement.cpp
+	"WorldElement.hpp"
+
+1411765545 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/TriggerElements.cpp
+
+1412817857 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/Include/Tools/TriggerTool.hpp
+	"Precomp.hpp"
+	"GlobalVars.hpp"
+	"World.hpp"
+
+1412915904 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/TriggerEditor.cpp
+	"TriggerEditor.hpp"
+
+1412916695 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/Include/TriggerEditor.hpp
+	"Precomp.hpp"
+
+1411765545 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/TriggerElementTemplates.cpp
+
+1421475455 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/CustomElementCreatorWIndow.cpp
+	"CustomElementCreatorWIndow.hpp"
+	"ToolBar.hpp"
+
+1421449175 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/CustomElementCreatorWIndow.hpp
+	"Precomp.hpp"
+	"GlobalVars.hpp"
+	"World.hpp"
+	"XMLReader.hpp"
+	"SmartWindow.hpp"
+	"FileOpenDialogWindow.hpp"
+	"SimpleOneLineDialogWindow.hpp"
+	"ToolBar.hpp"
+
+1425867444 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/Precomp.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+	<ClanLib/gui.h>
+
+1427326722 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/GlobalVars.hpp
+	"WorldElement.hpp"
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	"../TrollGameEngine/TrollMath/TrollMath.hpp"
+	"NavigationMesh.hpp"
+	"AngleEditor.hpp"
+	<algorithm>
+
+1427480972 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/WorldElement.hpp
+	"Precomp.hpp"
+	"../TrollGameEngine/TrollFileSystem/FileHelp.hpp"
+
+1427162932 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/FileHelp.hpp
+	"Precomp.hpp"
+	"NavMapLoadData.hpp"
+	"../TrollMath/TrollMath.hpp"
+
+1410389193 /user_data/CodeProjects/DriftingRealmsWorldEditor/Trollmath/TrollMath.hpp
+	"ClanLib/core.h"
+	<math.h>
+
+1412049430 /user_data/CodeProjects/DriftingRealmsWorldEditor/TrollPath/TrollPath.hpp
+	"TrollMath.hpp"
+	<math.h>
+
+1409785677 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/World.hpp
+
+1427430847 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/XMLReader.hpp
+	"World.hpp"
+	"pugixml.hpp"
+
+1393300050 /user_data/CodeProjects/DriftingRealmsWorldEditor/PugiXML/pugixml.hpp
+	"pugiconfig.hpp"
+	<stddef.h>
+	<exception>
+	<iterator>
+	<iosfwd>
+	<string>
+
+1393300085 /user_data/CodeProjects/DriftingRealmsWorldEditor/PugiXML/pugiconfig.hpp
+
+1407361463 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/SmartWindow.hpp
+	"Precomp.hpp"
+
+1407347673 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/FileOpenDialogWindow.hpp
+	"Precomp.hpp"
+	"SmartWindow.hpp"
+	"FileOpenDialogFileLabel.hpp"
+
+1407346856 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/FileOpenDialogFileLabel.hpp
+	"Precomp.hpp"
+
+1407347786 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/SimpleOneLineDialogWindow.hpp
+	"Precomp.hpp"
+	"SmartWindow.hpp"
+
+1421535373 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/ToolBar.hpp
+	"Precomp.hpp"
+	"ElementBrowser.hpp"
+	"TabHeader.hpp"
+	"TriggerTool.hpp"
+	"GameElementsTool.hpp"
+	"NavigationMeshTool.hpp"
+
+1415210303 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/ElementBrowser.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+	<ClanLib/gui.h>
+	"GlobalVars.hpp"
+	"World.hpp"
+	"XMLReader.hpp"
+	"ElementListItem.hpp"
+
+1415659804 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/ElementListItem.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+	<ClanLib/gui.h>
+	"GlobalVars.hpp"
+	"World.hpp"
+	"XMLReader.hpp"
+
+1412992138 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/Tools/TabHeader.hpp
+	"Precomp.hpp"
+	"GlobalVars.hpp"
+
+1415573891 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/Tools/TriggerTool.hpp
+	"Precomp.hpp"
+	"GlobalVars.hpp"
+	"World.hpp"
+
+1423260993 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/ElementBrowser.cpp
+	"ElementBrowser.hpp"
+
+1415659928 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/ElementListItem.cpp
+	"ElementListItem.hpp"
+
+1407348435 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/FileOpenDialogFileLabel.cpp
+	"FileOpenDialogFileLabel.hpp"
+
+1410928485 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/FileOpenDialogWindow.cpp
+	"FileOpenDialogWindow.hpp"
+
+1425867905 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/GlobalVars.cpp
+	"GlobalVars.hpp"
+
+1414015880 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/Include/Tools/TabHeader.cpp
+	"./TabHeader.hpp"
+
+1415211734 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/main.cpp
+	"GameInstance.hpp"
+
+1427317847 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/GameInstance.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+	<ClanLib/gui.h>
+	"./GameDisplayWindow.hpp"
+	"../TrollGameEngine/TrollMath/TrollMath.hpp"
+
+1427317833 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/GameDisplayWindow.hpp
+	"Precomp.hpp"
+	"World.hpp"
+	"ElementBrowser.hpp"
+	"CustomElementCreatorWIndow.hpp"
+	"../TrollGameEngine/TrollFileSystem/FileHelp.hpp"
+	"TriggerEditor.hpp"
+
+1407361458 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/ToolBoxWindow.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+	<ClanLib/gui.h>
+	"GlobalVars.hpp"
+	"SmartWindow.hpp"
+	"ToolBoxButton.hpp"
+
+1406399587 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/ToolBoxButton.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+	<ClanLib/gui.h>
+	"GlobalVars.hpp"
+	"ToolBoxWindow.hpp"
+
+1421449191 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/TriggerEditor.hpp
+	"Precomp.hpp"
+	"TriggerElementTemplates.hpp"
+
+1393454147 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/PugiXML/pugixml.cpp
+	"pugixml.hpp"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<assert.h>
+	<wchar.h>
+	<math.h>
+	<float.h>
+	<setjmp.h>
+	<istream>
+	<ostream>
+	<string>
+	<new>
+	<stdint.h>
+
+1407348522 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/SimpleOneLineDialogWindow.cpp
+	"SimpleOneLineDialogWindow.hpp"
+
+1407361499 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/SmartWindow.cpp
+	"SmartWindow.hpp"
+
+1408141424 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/ToolBar.cpp
+	"ToolBar.hpp"
+
+1409719525 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/ToolBoxButton.cpp
+	"ToolBoxButton.hpp"
+
+1409811572 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/ToolBoxWindow.cpp
+	"ToolBoxWindow.hpp"
+
+1415691566 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/TriggerEditor.cpp
+	"TriggerEditor.hpp"
+
+1414196446 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/TriggerElementTemplates.cpp
+	"TriggerElementTemplates.hpp"
+
+1410389192 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/Trollmath/TrollMath.cpp
+	"TrollMath.hpp"
+
+1412045678 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/TrollPath/TrollPath.cpp
+	"TrollPath.hpp"
+
+1415762743 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/WorldElement.cpp
+	"WorldElement.hpp"
+	"OutlineGenerator.hpp"
+
+1427481092 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/GameDisplayWindow.cpp
+	"./Include/GameDisplayWindow.hpp"
+
+1409949985 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/TrollDebugDraw.hpp
+	"ClanLib/core.h"
+	"ClanLib/display.h"
+	"TrollMath.hpp"
+
+1414045332 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/GameInstance.cpp
+	"./Include/GameInstance.hpp"
+
+1421475455 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/CustomElementCreatorWIndow.cpp
+	"CustomElementCreatorWIndow.hpp"
+	"ToolBar.hpp"
+
+1421449175 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Include/CustomElementCreatorWIndow.hpp
+	"Precomp.hpp"
+	"GlobalVars.hpp"
+	"World.hpp"
+	"XMLReader.hpp"
+	"SmartWindow.hpp"
+	"FileOpenDialogWindow.hpp"
+	"SimpleOneLineDialogWindow.hpp"
+	"ToolBar.hpp"
+
+1425867444 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Include/Precomp.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+	<ClanLib/gui.h>
+
+1425867920 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Include/GlobalVars.hpp
+	"WorldElement.hpp"
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	"../TrollGame/TrollMath.hpp"
+	"NavigationMesh.hpp"
+	"AngleEditor.hpp"
+	<algorithm>
+
+1425850349 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Include/WorldElement.hpp
+	"Precomp.hpp"
+	"FileHelp.hpp"
+
+1423113028 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Include/FileHelp.hpp
+	"Precomp.hpp"
+	"../TrollGame/TrollMath.hpp"
+	"NavMapLoadData.hpp"
+
+1412602764 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Trollmath/TrollMath.hpp
+	<math.h>
+	"Shape.hpp"
+	"Triangle.hpp"
+	"Point.hpp"
+	"Line.hpp"
+	"Circle.hpp"
+	"Rectangle.hpp"
+	"MathFunctions.hpp"
+	"CollisionManager.hpp"
+	"ShapeList.hpp"
+
+1413850528 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/TrollPath/TrollPath.hpp
+	"TrollMath.hpp"
+	<math.h>
+
+1409785677 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Include/World.hpp
+
+1425761808 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Include/XMLReader.hpp
+	"World.hpp"
+	"pugixml.hpp"
+
+1393300050 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/PugiXML/pugixml.hpp
+	"pugiconfig.hpp"
+	<stddef.h>
+	<exception>
+	<iterator>
+	<iosfwd>
+	<string>
+
+1393300085 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/PugiXML/pugiconfig.hpp
+
+1407361463 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Include/SmartWindow.hpp
+	"Precomp.hpp"
+
+1407347673 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Include/FileOpenDialogWindow.hpp
+	"Precomp.hpp"
+	"SmartWindow.hpp"
+	"FileOpenDialogFileLabel.hpp"
+
+1407346856 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Include/FileOpenDialogFileLabel.hpp
+	"Precomp.hpp"
+
+1407347786 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Include/SimpleOneLineDialogWindow.hpp
+	"Precomp.hpp"
+	"SmartWindow.hpp"
+
+1421535373 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Include/ToolBar.hpp
+	"Precomp.hpp"
+	"ElementBrowser.hpp"
+	"TabHeader.hpp"
+	"TriggerTool.hpp"
+	"GameElementsTool.hpp"
+	"NavigationMeshTool.hpp"
+
+1415210303 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Include/ElementBrowser.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+	<ClanLib/gui.h>
+	"GlobalVars.hpp"
+	"World.hpp"
+	"XMLReader.hpp"
+	"ElementListItem.hpp"
+
+1415659804 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Include/ElementListItem.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+	<ClanLib/gui.h>
+	"GlobalVars.hpp"
+	"World.hpp"
+	"XMLReader.hpp"
+
+1412992138 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Include/Tools/TabHeader.hpp
+	"Precomp.hpp"
+	"GlobalVars.hpp"
+
+1415573891 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Include/Tools/TriggerTool.hpp
+	"Precomp.hpp"
+	"GlobalVars.hpp"
+	"World.hpp"
+
+1423260993 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/ElementBrowser.cpp
+	"ElementBrowser.hpp"
+
+1415659928 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/ElementListItem.cpp
+	"ElementListItem.hpp"
+
+1407348435 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/FileOpenDialogFileLabel.cpp
+	"FileOpenDialogFileLabel.hpp"
+
+1410928485 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/FileOpenDialogWindow.cpp
+	"FileOpenDialogWindow.hpp"
+
+1425763612 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/GameDisplayWindow.cpp
+	"./Include/GameDisplayWindow.hpp"
+
+1423330330 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Include/GameDisplayWindow.hpp
+	"Precomp.hpp"
+	"World.hpp"
+	"ElementBrowser.hpp"
+	"CustomElementCreatorWIndow.hpp"
+	"FileHelp.hpp"
+	"TriggerEditor.hpp"
+
+1421449191 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Include/TriggerEditor.hpp
+	"Precomp.hpp"
+	"TriggerElementTemplates.hpp"
+
+1415981827 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Include/TrollDebugDraw.hpp
+	"ClanLib/core.h"
+	"ClanLib/display.h"
+	"../TrollGame/TrollMath.hpp"
+
+1414045332 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/GameInstance.cpp
+	"./Include/GameInstance.hpp"
+
+1415210687 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Include/GameInstance.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+	<ClanLib/gui.h>
+	"./GameDisplayWindow.hpp"
+	"../TrollGame/TrollMath.hpp"
+
+1425867905 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/GlobalVars.cpp
+	"GlobalVars.hpp"
+
+1414015880 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Include/Tools/TabHeader.cpp
+	"./TabHeader.hpp"
+
+1415211734 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/main.cpp
+	"GameInstance.hpp"
+
+1393454147 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/PugiXML/pugixml.cpp
+	"pugixml.hpp"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<assert.h>
+	<wchar.h>
+	<math.h>
+	<float.h>
+	<setjmp.h>
+	<istream>
+	<ostream>
+	<string>
+	<new>
+	<stdint.h>
+
+1407348522 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/SimpleOneLineDialogWindow.cpp
+	"SimpleOneLineDialogWindow.hpp"
+
+1407361499 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/SmartWindow.cpp
+	"SmartWindow.hpp"
+
+1408141424 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/ToolBar.cpp
+	"ToolBar.hpp"
+
+1415691566 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/TriggerEditor.cpp
+	"TriggerEditor.hpp"
+
+1414196446 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/TriggerElementTemplates.cpp
+	"TriggerElementTemplates.hpp"
+
+1410389192 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Trollmath/TrollMath.cpp
+	"TrollMath.hpp"
+
+1414044842 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/TrollPath/TrollPath.cpp
+	"TrollPath.hpp"
+
+1415762743 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/WorldElement.cpp
+	"WorldElement.hpp"
+	"OutlineGenerator.hpp"
+
+1412774828 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Trollmath/Shape.hpp
+	"Point.hpp"
+
+1412866400 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Trollmath/Point.hpp
+	<cmath>
+	"MathConstants.hpp"
+	"MathFunctions.hpp"
+
+1412187406 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Trollmath/MathConstants.hpp
+
+1412967758 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Trollmath/MathFunctions.hpp
+	<math.h>
+	<stdlib.h>
+	"MathConstants.hpp"
+
+1412966425 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Trollmath/Triangle.hpp
+	"Shape.hpp"
+	"Point.hpp"
+
+1412960210 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Trollmath/Line.hpp
+	"Point.hpp"
+	"Rectangle.hpp"
+
+1412963244 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Trollmath/Rectangle.hpp
+	"Shape.hpp"
+	"Point.hpp"
+
+1412964069 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Trollmath/Circle.hpp
+	"Shape.hpp"
+	"Line.hpp"
+	"Rectangle.hpp"
+
+1412967508 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Trollmath/CollisionManager.hpp
+	<vector>
+	"Shape.hpp"
+	"Line.hpp"
+	"Circle.hpp"
+	"Rectangle.hpp"
+	"Polygon.hpp"
+	"ShapeList.hpp"
+
+1412967277 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Trollmath/Polygon.hpp
+	"Point.hpp"
+	"Shape.hpp"
+	"Line.hpp"
+	"Circle.hpp"
+	<iostream>
+	<vector>
+
+1412266484 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Trollmath/ShapeList.hpp
+	"Shape.hpp"
+
+1412963355 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Trollmath/Circle.cpp
+	"Circle.hpp"
+
+1412967508 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Trollmath/CollisionManager.cpp
+	"CollisionManager.hpp"
+
+1412963164 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Trollmath/Line.cpp
+	"Line.hpp"
+
+1412964570 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Trollmath/main.cpp
+	<iostream>
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+	"./TrollMath.hpp"
+
+1412188214 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Trollmath/MathFunctions.cpp
+	"MathFunctions.hpp"
+
+1412866427 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Trollmath/Point.cpp
+	"Point.hpp"
+
+1412965623 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Trollmath/Polygon.cpp
+	"Polygon.hpp"
+
+1412963281 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Trollmath/Rectangle.cpp
+	"Rectangle.hpp"
+
+1412719071 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Trollmath/Shape.cpp
+	"Shape.hpp"
+
+1412268746 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Trollmath/ShapeList.cpp
+	"ShapeList.hpp"
+
+1412966405 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Trollmath/Triangle.cpp
+	"Triangle.hpp"
+
+1415687547 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Include/TriggerElementTemplates.hpp
+	"Precomp.hpp"
+
+1415048914 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/TrollGame/Algorithm.cpp
+	"Algorithm.hpp"
+
+1415211299 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/TrollGame/Algorithm.hpp
+	<iostream>
+
+1412963354 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/TrollGame/Circle.cpp
+	"Circle.hpp"
+
+1412964068 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/TrollGame/Circle.hpp
+	"Shape.hpp"
+	"Line.hpp"
+	"Rectangle.hpp"
+
+1412774828 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/TrollGame/Shape.hpp
+	"Point.hpp"
+
+1412866400 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/TrollGame/Point.hpp
+	<cmath>
+	"MathConstants.hpp"
+	"MathFunctions.hpp"
+
+1414513088 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/TrollGame/MathConstants.hpp
+
+1412268622 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/TrollGame/MathFunctions.hpp
+	<math.h>
+	<stdlib.h>
+	"MathConstants.hpp"
+
+1414106880 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/TrollGame/Line.hpp
+	"Point.hpp"
+	"Rectangle.hpp"
+	<iostream>
+
+1412963244 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/TrollGame/Rectangle.hpp
+	"Shape.hpp"
+	"Point.hpp"
+
+1412870160 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/TrollGame/CollisionManager.cpp
+	"CollisionManager.hpp"
+
+1412865200 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/TrollGame/CollisionManager.hpp
+	<vector>
+	"Shape.hpp"
+	"Line.hpp"
+	"Circle.hpp"
+	"Rectangle.hpp"
+	"Polygon.hpp"
+	"ShapeList.hpp"
+
+1418239262 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/TrollGame/Polygon.hpp
+	"Point.hpp"
+	"Shape.hpp"
+	"Line.hpp"
+	"Circle.hpp"
+	<iostream>
+	<vector>
+
+1412266484 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/TrollGame/ShapeList.hpp
+	"Shape.hpp"
+
+1414159764 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/TrollGame/Line.cpp
+	"Line.hpp"
+
+1412188214 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/TrollGame/MathFunctions.cpp
+	"MathFunctions.hpp"
+
+1412866426 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/TrollGame/Point.cpp
+	"Point.hpp"
+
+1415210228 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/TrollGame/Polygon.cpp
+	"Polygon.hpp"
+
+1412963280 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/TrollGame/Rectangle.cpp
+	"Rectangle.hpp"
+
+1412719070 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/TrollGame/Shape.cpp
+	"Shape.hpp"
+
+1412268746 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/TrollGame/ShapeList.cpp
+	"ShapeList.hpp"
+
+1412696514 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/TrollGame/Triangle.cpp
+	"Triangle.hpp"
+
+1412267944 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/TrollGame/Triangle.hpp
+	"Shape.hpp"
+	"Point.hpp"
+
+1415241517 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/TrollGame/TrollPath.cpp
+	"TrollPath.hpp"
+
+1415241514 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/TrollGame/TrollPath.hpp
+	<iostream>
+	"TrollMath.hpp"
+	<ClanLib/display.h>
+	<algorithm>
+	"Algorithm.hpp"
+
+1412602764 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/TrollGame/TrollMath.hpp
+	<math.h>
+	"Shape.hpp"
+	"Triangle.hpp"
+	"Point.hpp"
+	"Line.hpp"
+	"Circle.hpp"
+	"Rectangle.hpp"
+	"MathFunctions.hpp"
+	"CollisionManager.hpp"
+	"ShapeList.hpp"
+
+1415758406 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/NavigationMeshTool.cpp
+
+1415941813 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Include/NavigationMeshTool.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+	<ClanLib/gui.h>
+	"GlobalVars.hpp"
+	"World.hpp"
+	"XMLReader.hpp"
+	"ElementListItem.hpp"
+
+1425866687 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Include/NavigationMesh.hpp
+	"GlobalVars.hpp"
+	"FileHelp.hpp"
+	"NavMapLoadData.hpp"
+
+1415762734 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Include/OutlineGenerator.hpp
+
+1426045458 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/NavigationMesh.cpp
+	"NavigationMesh.hpp"
+	<algorithm>
+
+1425681246 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/FileHelp.cpp
+	"FileHelp.hpp"
+
+1424471551 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Include/NavMapLoadData.hpp
+
+1423203914 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Include/AngleEditor.hpp
+	"FileHelp.hpp"
+	"NavMapLoadData.hpp"
+
+1423203902 source:/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/AngleEditor.cpp
+	"AngleEditor.hpp"
+	"GlobalVars.hpp"
+
+1421642885 /user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor/Include/GameElementsTool.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+	<ClanLib/gui.h>
+	"GlobalVars.hpp"
+	"World.hpp"
+	"XMLReader.hpp"
+	"ElementListItem.hpp"
+
+1427431971 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/AngleEditor.cpp
+	"AngleEditor.hpp"
+	"GlobalVars.hpp"
+
+1427431956 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/AngleEditor.hpp
+	"../TrollGameEngine/TrollFileSystem/FileHelp.hpp"
+	"NavMapLoadData.hpp"
+
+1412602764 /user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGame/TrollMath.hpp
+	<math.h>
+	"Shape.hpp"
+	"Triangle.hpp"
+	"Point.hpp"
+	"Line.hpp"
+	"Circle.hpp"
+	"Rectangle.hpp"
+	"MathFunctions.hpp"
+	"CollisionManager.hpp"
+	"ShapeList.hpp"
+
+1412774828 /user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGame/Shape.hpp
+	"Point.hpp"
+
+1426135152 /user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGame/Point.hpp
+	<cmath>
+	"MathConstants.hpp"
+	"MathFunctions.hpp"
+
+1414513088 /user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGame/MathConstants.hpp
+
+1412268622 /user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGame/MathFunctions.hpp
+	<math.h>
+	<stdlib.h>
+	"MathConstants.hpp"
+
+1412267944 /user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGame/Triangle.hpp
+	"Shape.hpp"
+	"Point.hpp"
+
+1414106880 /user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGame/Line.hpp
+	"Point.hpp"
+	"Rectangle.hpp"
+	<iostream>
+
+1412963244 /user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGame/Rectangle.hpp
+	"Shape.hpp"
+	"Point.hpp"
+
+1412964068 /user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGame/Circle.hpp
+	"Shape.hpp"
+	"Line.hpp"
+	"Rectangle.hpp"
+
+1412865200 /user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGame/CollisionManager.hpp
+	<vector>
+	"Shape.hpp"
+	"Line.hpp"
+	"Circle.hpp"
+	"Rectangle.hpp"
+	"Polygon.hpp"
+	"ShapeList.hpp"
+
+1418239262 /user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGame/Polygon.hpp
+	"Point.hpp"
+	"Shape.hpp"
+	"Line.hpp"
+	"Circle.hpp"
+	<iostream>
+	<vector>
+
+1412266484 /user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGame/ShapeList.hpp
+	"Shape.hpp"
+
+1427318322 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/NavMapLoadData.hpp
+
+1427432263 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/NavigationMesh.hpp
+	"GlobalVars.hpp"
+	"../TrollGameEngine/TrollFileSystem/FileHelp.hpp"
+	"NavMapLoadData.hpp"
+
+1421642885 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/GameElementsTool.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+	<ClanLib/gui.h>
+	"GlobalVars.hpp"
+	"World.hpp"
+	"XMLReader.hpp"
+	"ElementListItem.hpp"
+
+1415941813 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/NavigationMeshTool.hpp
+	<ClanLib/core.h>
+	<ClanLib/display.h>
+	<ClanLib/gl.h>
+	<ClanLib/application.h>
+	<ClanLib/gui.h>
+	"GlobalVars.hpp"
+	"World.hpp"
+	"XMLReader.hpp"
+	"ElementListItem.hpp"
+
+1427162332 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/FileHelp.cpp
+	"FileHelp.hpp"
+
+1415687547 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/TriggerElementTemplates.hpp
+	"Precomp.hpp"
+
+1415758406 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/NavigationMeshTool.cpp
+
+1415048914 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGame/Algorithm.cpp
+	"Algorithm.hpp"
+
+1415211299 /user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGame/Algorithm.hpp
+	<iostream>
+
+1412963354 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGame/Circle.cpp
+	"Circle.hpp"
+
+1412870160 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGame/CollisionManager.cpp
+	"CollisionManager.hpp"
+
+1414159764 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGame/Line.cpp
+	"Line.hpp"
+
+1412188214 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGame/MathFunctions.cpp
+	"MathFunctions.hpp"
+
+1426135152 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGame/Point.cpp
+	"Point.hpp"
+
+1415210228 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGame/Polygon.cpp
+	"Polygon.hpp"
+
+1412963280 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGame/Rectangle.cpp
+	"Rectangle.hpp"
+
+1412719070 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGame/Shape.cpp
+	"Shape.hpp"
+
+1412268746 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGame/ShapeList.cpp
+	"ShapeList.hpp"
+
+1412696514 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGame/Triangle.cpp
+	"Triangle.hpp"
+
+1415762734 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/OutlineGenerator.hpp
+
+1427431993 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/NavigationMesh.cpp
+	"NavigationMesh.hpp"
+	<algorithm>
+
+1412602764 /user_data/CodeProjects/DriftingRealmsWorldEditor/TrollMath/TrollMath.hpp
+	<math.h>
+	"Shape.hpp"
+	"Triangle.hpp"
+	"Point.hpp"
+	"Line.hpp"
+	"Circle.hpp"
+	"Rectangle.hpp"
+	"MathFunctions.hpp"
+	"CollisionManager.hpp"
+	"ShapeList.hpp"
+
+1427431944 /user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGameEngine/TrollFileSystem/FileHelp.hpp
+	"Precomp.hpp"
+	"../TrollPath/SaveLoadMeshData.hpp"
+	"../TrollMath/TrollMath.hpp"
+	"../TrollPath/TrollPath.hpp"
+
+1427004573 /user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGameEngine/TrollMath/TrollMath.hpp
+	<math.h>
+	"Shape.hpp"
+	"Triangle.hpp"
+	"Point.hpp"
+	"Line.hpp"
+	"Circle.hpp"
+	"Rectangle.hpp"
+	"MathFunctions.hpp"
+	"../TrollCollision/CollisionManager.hpp"
+	"ShapeList.hpp"
+
+1427004573 /user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGameEngine/TrollMath/Shape.hpp
+	"Point.hpp"
+
+1427319523 /user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGameEngine/TrollMath/Point.hpp
+	<cmath>
+	"MathConstants.hpp"
+	"MathFunctions.hpp"
+
+1427004573 /user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGameEngine/TrollMath/MathConstants.hpp
+
+1427004573 /user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGameEngine/TrollMath/MathFunctions.hpp
+	<math.h>
+	<stdlib.h>
+	"MathConstants.hpp"
+
+1427004573 /user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGameEngine/TrollMath/Triangle.hpp
+	"Shape.hpp"
+	"Point.hpp"
+
+1427004573 /user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGameEngine/TrollMath/Line.hpp
+	"Point.hpp"
+	"Rectangle.hpp"
+	<iostream>
+
+1427004573 /user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGameEngine/TrollMath/Rectangle.hpp
+	"Shape.hpp"
+	"Point.hpp"
+
+1427004573 /user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGameEngine/TrollMath/Circle.hpp
+	"Shape.hpp"
+	"Line.hpp"
+	"Rectangle.hpp"
+
+1427004573 /user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGameEngine/TrollCollision/CollisionManager.hpp
+	<vector>
+	"../TrollMath/Shape.hpp"
+	"../TrollMath/Line.hpp"
+	"../TrollMath/Circle.hpp"
+	"../TrollMath/Rectangle.hpp"
+	"../TrollMath/Polygon.hpp"
+	"../TrollMath/ShapeList.hpp"
+
+1427004573 /user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGameEngine/TrollMath/Polygon.hpp
+	"Point.hpp"
+	"Shape.hpp"
+	"Line.hpp"
+	"Circle.hpp"
+	<iostream>
+	<vector>
+
+1427004573 /user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGameEngine/TrollMath/ShapeList.hpp
+	"Shape.hpp"
+
+1427004573 /user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGameEngine/TrollPath/TrollPath.hpp
+	<iostream>
+	"../TrollMath/TrollMath.hpp"
+	<ClanLib/display.h>
+	<algorithm>
+	"../TrollCore/Algorithm.hpp"
+	"../TrollPath/SaveLoadMeshData.hpp"
+	"../TrollPath/RunTimeData.hpp"
+	"../TrollPath/NavMesh.hpp"
+	"../TrollPath/FunnelSystem.hpp"
+
+1427004573 /user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGameEngine/TrollCore/Algorithm.hpp
+	<iostream>
+
+1427432224 /user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGameEngine/TrollPath/SaveLoadMeshData.hpp
+	"../../Include/Precomp.hpp"
+	"../TrollMath/TrollMath.hpp"
+
+1427004573 /user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGameEngine/TrollPath/RunTimeData.hpp
+	<iostream>
+	"../TrollMath/TrollMath.hpp"
+	<ClanLib/display.h>
+	<algorithm>
+	"../TrollCore/Algorithm.hpp"
+	"../TrollPath/SaveLoadMeshData.hpp"
+
+1427004573 /user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGameEngine/TrollPath/NavMesh.hpp
+	<iostream>
+	"../TrollMath/TrollMath.hpp"
+	<ClanLib/display.h>
+	<algorithm>
+	"../TrollCore/Algorithm.hpp"
+	"../TrollPath/SaveLoadMeshData.hpp"
+	"../TrollPath/RunTimeData.hpp"
+	"../TrollPath/FunnelSystem.hpp"
+
+1427004573 /user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGameEngine/TrollPath/FunnelSystem.hpp
+	<iostream>
+	"../TrollMath/TrollMath.hpp"
+	<ClanLib/display.h>
+	<algorithm>
+	"../TrollCore/Algorithm.hpp"
+	"../TrollPath/SaveLoadMeshData.hpp"
+	"../TrollPath/RunTimeData.hpp"
+	"../TrollPath/NavMesh.hpp"
+
+1427319461 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGameEngine/TrollMath/Point.cpp
+	"Point.hpp"
+
+1427004573 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGameEngine/TrollCollision/CollisionManager.cpp
+	"CollisionManager.hpp"
+
+1427004573 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGameEngine/TrollCore/Algorithm.cpp
+	"Algorithm.hpp"
+
+1427432278 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGameEngine/TrollFileSystem/FileHelp.cpp
+	"FileHelp.hpp"
+
+1427004573 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGameEngine/TrollMath/Circle.cpp
+	"Circle.hpp"
+
+1427004573 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGameEngine/TrollMath/Line.cpp
+	"Line.hpp"
+
+1427004573 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGameEngine/TrollMath/MathFunctions.cpp
+	"MathFunctions.hpp"
+
+1427004573 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGameEngine/TrollMath/Polygon.cpp
+	"Polygon.hpp"
+
+1427004573 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGameEngine/TrollMath/Rectangle.cpp
+	"Rectangle.hpp"
+
+1427004573 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGameEngine/TrollMath/Shape.cpp
+	"Shape.hpp"
+
+1427004573 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGameEngine/TrollMath/ShapeList.cpp
+	"ShapeList.hpp"
+
+1427004573 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/TrollGameEngine/TrollMath/Triangle.cpp
+	"Triangle.hpp"
+

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="WorldEditor" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="PugiXml/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/DriftingRealmsEditor" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-pg" />
+					<Add option="-g" />
+					<Add directory="Trollmath" />
+					<Add directory="PugiXML" />
+					<Add directory="Include" />
+					<Add directory="Include/Tools" />
+					<Add directory="TrollPath" />
+					<Add directory="/user_data/CodeProjects/new_merging/DriftingRealmsWorldEditor[Thu Aug 14]/" />
+				</Compiler>
+				<Linker>
+					<Add option="-pg" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/DriftingRealms[2D]" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="/usr/include/ClanLib-3.0/" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-pthread" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add option="-Wall" />
+			<Add option="`pkg-config --cflags lBox2D clanCore-3.0 clanDisplay-3.0 clanGL-3.0 clanSWRender-3.0 clanApp-3.0 clanGUI-3.0` -lBox2D -lpthread" />
+			<Add directory="/usr/include/ClanLib-3.0" />
+			<Add directory="/storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/Include" />
+			<Add directory="/storage_a/DATA/Projects/Games/DriftingRealmsWorldEditor/PugiXML" />
+		</Compiler>
+		<Linker>
+			<Add option="`pkg-config --libs clanCore-3.0 clanDisplay-3.0 clanGL-3.0 clanSWRender-3.0 clanApp-3.0 clanGUI-3.0` -lpthread" />
+		</Linker>
+		<Unit filename="AngleEditor.cpp" />
+		<Unit filename="CustomElementCreatorWIndow.cpp" />
+		<Unit filename="ElementBrowser.cpp" />
+		<Unit filename="ElementListItem.cpp" />
+		<Unit filename="FileOpenDialogFileLabel.cpp" />
+		<Unit filename="FileOpenDialogWindow.cpp" />
+		<Unit filename="GameDisplayWindow.cpp" />
+		<Unit filename="GameInstance.cpp" />
+		<Unit filename="GlobalVars.cpp" />
+		<Unit filename="Include/AngleEditor.hpp" />
+		<Unit filename="Include/CustomElementCreatorWIndow.hpp" />
+		<Unit filename="Include/ElementBrowser.hpp" />
+		<Unit filename="Include/ElementListItem.hpp" />
+		<Unit filename="Include/FileOpenDialogFileLabel.hpp" />
+		<Unit filename="Include/FileOpenDialogWindow.hpp" />
+		<Unit filename="Include/GameDisplayWindow.hpp" />
+		<Unit filename="Include/GameElementsTool.hpp" />
+		<Unit filename="Include/GameInstance.hpp" />
+		<Unit filename="Include/GlobalVars.hpp" />
+		<Unit filename="Include/NavigationMesh.hpp" />
+		<Unit filename="Include/NavigationMeshTool.hpp" />
+		<Unit filename="Include/OutlineGenerator.hpp" />
+		<Unit filename="Include/Precomp.hpp" />
+		<Unit filename="Include/SimpleOneLineDialogWindow.hpp" />
+		<Unit filename="Include/SmartWindow.hpp" />
+		<Unit filename="Include/ToolBar.hpp" />
+		<Unit filename="Include/Tools/TabHeader.cpp" />
+		<Unit filename="Include/Tools/TabHeader.hpp" />
+		<Unit filename="Include/Tools/TriggerTool.hpp" />
+		<Unit filename="Include/TriggerEditor.hpp" />
+		<Unit filename="Include/TriggerElementTemplates.hpp" />
+		<Unit filename="Include/TriggerGUIElement.hpp" />
+		<Unit filename="Include/WorldElement.hpp" />
+		<Unit filename="Include/XMLReader.hpp" />
+		<Unit filename="NavigationMesh.cpp" />
+		<Unit filename="NavigationMeshTool.cpp" />
+		<Unit filename="PugiXML/pugiconfig.hpp">
+			<Option virtualFolder="PugiXml/" />
+		</Unit>
+		<Unit filename="PugiXML/pugixml.cpp">
+			<Option virtualFolder="PugiXml/" />
+		</Unit>
+		<Unit filename="PugiXML/pugixml.hpp">
+			<Option virtualFolder="PugiXml/" />
+		</Unit>
+		<Unit filename="SimpleOneLineDialogWindow.cpp" />
+		<Unit filename="SmartWindow.cpp" />
+		<Unit filename="ToolBar.cpp" />
+		<Unit filename="TriggerEditor.cpp" />
+		<Unit filename="TriggerElementTemplates.cpp" />
+		<Unit filename="TrollGameEngine/TrollCollision/CollisionManager.cpp" />
+		<Unit filename="TrollGameEngine/TrollCollision/CollisionManager.hpp" />
+		<Unit filename="TrollGameEngine/TrollCore/Algorithm.cpp" />
+		<Unit filename="TrollGameEngine/TrollCore/Algorithm.hpp" />
+		<Unit filename="TrollGameEngine/TrollFileSystem/FileHelp.cpp" />
+		<Unit filename="TrollGameEngine/TrollFileSystem/FileHelp.hpp" />
+		<Unit filename="TrollGameEngine/TrollMath/Circle.cpp" />
+		<Unit filename="TrollGameEngine/TrollMath/Circle.hpp" />
+		<Unit filename="TrollGameEngine/TrollMath/Line.cpp" />
+		<Unit filename="TrollGameEngine/TrollMath/Line.hpp" />
+		<Unit filename="TrollGameEngine/TrollMath/MathConstants.hpp" />
+		<Unit filename="TrollGameEngine/TrollMath/MathFunctions.cpp" />
+		<Unit filename="TrollGameEngine/TrollMath/MathFunctions.hpp" />
+		<Unit filename="TrollGameEngine/TrollMath/Point.cpp" />
+		<Unit filename="TrollGameEngine/TrollMath/Point.hpp" />
+		<Unit filename="TrollGameEngine/TrollMath/Polygon.cpp" />
+		<Unit filename="TrollGameEngine/TrollMath/Polygon.hpp" />
+		<Unit filename="TrollGameEngine/TrollMath/Rectangle.cpp" />
+		<Unit filename="TrollGameEngine/TrollMath/Rectangle.hpp" />
+		<Unit filename="TrollGameEngine/TrollMath/Shape.cpp" />
+		<Unit filename="TrollGameEngine/TrollMath/Shape.hpp" />
+		<Unit filename="TrollGameEngine/TrollMath/ShapeList.cpp" />
+		<Unit filename="TrollGameEngine/TrollMath/ShapeList.hpp" />
+		<Unit filename="TrollGameEngine/TrollMath/Triangle.cpp" />
+		<Unit filename="TrollGameEngine/TrollMath/Triangle.hpp" />
+		<Unit filename="TrollGameEngine/TrollMath/TrollMath.hpp" />
+		<Unit filename="TrollGameEngine/TrollPath/SaveLoadMeshData.hpp" />
+		<Unit filename="WorldElement.cpp" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

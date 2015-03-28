@@ -66,6 +66,7 @@ class GameDisplayWindow{
         void action_generate_nav_map_start();
         void Export();
         void Import();
+        bool IsAltEditor();
     private:
         void make_a_new_world();
 

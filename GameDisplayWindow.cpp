@@ -303,10 +303,17 @@ bool GameDisplayWindow::on_input(const clan::InputEvent &e){
                 UpdateCollisionsFromZoom();
             }
         }
+    }else if(!trigger_editor->is_closed){
+        trigger_editor->on_input(e);
     }
 
     return 0;
 }
+
+bool GameDisplayWindow::IsAltEditor(){
+    return NavMeshEditMode || AngleEditMode || !visible;
+}
+
 void GameDisplayWindow::UpdateCollisionsFromZoom(){
     for(unsigned int i = 0;i < GLOBAL_VARS::element_list.size();i++){
         GLOBAL_VARS::element_list[i]->ScaleCollision(zoom,cam_position);

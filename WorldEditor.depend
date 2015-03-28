@@ -2814,7 +2814,7 @@
 	"./GameDisplayWindow.hpp"
 	"../TrollGameEngine/TrollMath/TrollMath.hpp"
 
-1427317833 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/GameDisplayWindow.hpp
+1427497439 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/GameDisplayWindow.hpp
 	"Precomp.hpp"
 	"World.hpp"
 	"ElementBrowser.hpp"
@@ -2841,8 +2841,8 @@
 	"GlobalVars.hpp"
 	"ToolBoxWindow.hpp"
 
-1421449191 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/TriggerEditor.hpp
-	"Precomp.hpp"
+1427585664 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/TriggerEditor.hpp
+	"GlobalVars.hpp"
 	"TriggerElementTemplates.hpp"
 
 1393454147 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/PugiXML/pugixml.cpp
@@ -2876,7 +2876,7 @@
 1409811572 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/ToolBoxWindow.cpp
 	"ToolBoxWindow.hpp"
 
-1415691566 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/TriggerEditor.cpp
+1427585468 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/TriggerEditor.cpp
 	"TriggerEditor.hpp"
 
 1414196446 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/TriggerElementTemplates.cpp
@@ -2892,7 +2892,7 @@
 	"WorldElement.hpp"
 	"OutlineGenerator.hpp"
 
-1427481092 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/GameDisplayWindow.cpp
+1427497499 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/GameDisplayWindow.cpp
 	"./Include/GameDisplayWindow.hpp"
 
 1409949985 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/TrollDebugDraw.hpp
@@ -3478,7 +3478,7 @@
 1427162332 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/FileHelp.cpp
 	"FileHelp.hpp"
 
-1415687547 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/TriggerElementTemplates.hpp
+1427585842 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/TriggerElementTemplates.hpp
 	"Precomp.hpp"
 
 1415758406 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/NavigationMeshTool.cpp
@@ -3521,7 +3521,7 @@
 
 1415762734 /user_data/CodeProjects/DriftingRealmsWorldEditor/Include/OutlineGenerator.hpp
 
-1427431993 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/NavigationMesh.cpp
+1427482606 source:/user_data/CodeProjects/DriftingRealmsWorldEditor/NavigationMesh.cpp
 	"NavigationMesh.hpp"
 	<algorithm>
 

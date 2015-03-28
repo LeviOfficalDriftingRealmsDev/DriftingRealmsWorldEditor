@@ -14,12 +14,16 @@ void TriggerEditor::Draw(Canvas &c, const Rect &clip){
 bool TriggerEditor::on_input(const InputEvent &e){
     std::vector<int> selected;
     static int last_selected = -1;
+    static bool grabbing = false;
+    static bool action = false;
+    static Vec2f scroll_last = Vec2f(0,0);
+    static bool scrolling = false;
 
-    if(e.id == InputCode::mouse_right){
+    if(e.id == InputCode::mouse_right && IsPressed(e) && !action){
         //! I know I could do a normal for loop, but I think this looks better
         int iter = 0;
         for(auto &elem : nodes){
-            if(elem->get_geometry().left < e.mouse_pos.x && elem->get_geometry().right > e.mouse_pos.x && elem->get_geometry().top < e.mouse_pos.y && elem->get_geometry().bottom > e.mouse_pos.y)
+            if(elem->PointInBound(Vec2f(e.mouse_pos)))
                 selected.push_back(iter);
             if(!e.shift)
                 elem->selected = false;
@@ -49,4 +53,49 @@ bool TriggerEditor::on_input(const InputEvent &e){
             }
         }
     }
+
+
+    if(e.id == InputCode::mouse_middle && IsPressed(e)){
+        scroll_last = Vec2f(e.mouse_pos);
+        scrolling = true;
+    }
+    if(e.id == InputCode::mouse_middle && e.type == InputEvent::Type::released){
+        scroll_last = Vec2f(e.mouse_pos);
+        scrolling = false;
+    }
+    if(scrolling){
+        cam_position -= (Vec2f(e.mouse_pos)-scroll_last)*zoom;
+        scroll_last = Vec2f(e.mouse_pos);
+    }
+
+    if(e.id == InputCode::mouse_left && IsPressed(e)){
+        grabbing = false;
+        action = false;
+    }
+    if(e.id == keycode_g && IsPressed(e)){
+        for(auto &elem : nodes){
+            if(elem->selected){
+                elem->StartGrab(Vec2f(e.mouse_pos));
+            }
+        }
+        grabbing = true;
+        action = true;
+    }
+    if(grabbing){
+        for(auto &elem : nodes){
+            if(elem->selected){
+                elem->Grabbing(Vec2f(e.mouse_pos));
+            }
+        }
+    }
+
+    //! zooming is a later feature
+//    if(e.id == clan::mouse_wheel_down){
+//        zoom *= 1.1;
+//        if(zoom > 20) zoom = 20;
+//    }
+//    else if(e.id == clan::mouse_wheel_up){
+//        zoom /= 1.1;
+//        if(zoom < 1) zoom = 1;
+//    }
 }

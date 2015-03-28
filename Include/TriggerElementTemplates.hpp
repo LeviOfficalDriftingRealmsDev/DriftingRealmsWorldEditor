@@ -17,6 +17,10 @@ public:
     TriggerElementTemplate(){
         ;
     }
+    ~TriggerElementTemplate(){
+        delete[] input_types;
+        delete[] output_types;
+    }
     TriggerElementTemplate(TriggerTypes *input_types,int input_cnt,TriggerTypes *output_types,int output_cnt,TriggerTypes type){
         this->input_types  = input_types ;
         this->output_types = output_types;
@@ -25,6 +29,8 @@ public:
         this->output_cnt   = output_cnt  ;
         if(type == TriggerTypes::Filter){
             title = "Filter";
+        }else if(type == TriggerTypes::Event){
+            title = "Event";
         }else{
             title = "unknown";
         }
